@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 
 ---
-Write x like [x] can check.
+Writting [x] can check.
 ---
 **What is the Modpack version?**
 - [] Latest version
