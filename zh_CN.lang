@@ -1,0 +1,1522 @@
+#Gregtania6 Skyblock
+
+##################
+# BetterQuesting #
+##################
+
+betterquesting.title.quest_lines=Gregtania6 Skyblock 任务线
+betterquesting.title.edit_line1=编辑任务线
+betterquesting.title.edit_line2=编辑任务线 - %s
+betterquesting.title.edit_quest=编辑任务
+betterquesting.title.edit_tasks=编辑任务（详情）
+betterquesting.title.edit_rewards=编辑奖励
+betterquesting.title.edit_text=文本编辑
+betterquesting.title.pre_requisites=编辑前置太哦见
+betterquesting.title.json_object=对象
+betterquesting.title.json_array=列表
+betterquesting.title.json_add=新类型
+betterquesting.title.select_item=选择物品
+betterquesting.title.select_fluid=选择流体
+betterquesting.title.select_entity=选择实体
+betterquesting.title.party_none=组队任务
+betterquesting.title.party=管理队伍 - %s
+betterquesting.title.party_invite=邀请玩家
+betterquesting.title.select_theme=选择主题
+betterquesting.title.importers=进口商？
+betterquesting.title.submit_station=提交站点？
+
+betterquesting.btn.rewards=奖励
+betterquesting.btn.tasks=任务
+betterquesting.btn.advanced=高级
+betterquesting.btn.is_main=主要
+betterquesting.btn.requirements=要求
+betterquesting.btn.edit=编辑
+betterquesting.btn.new=新建
+betterquesting.btn.import=导入
+betterquesting.btn.logic=逻辑
+betterquesting.btn.show=查看
+betterquesting.btn.claim=领取
+betterquesting.btn.detect_submit=检测/提交
+betterquesting.btn.add_remove_quests=添加/删除 任务
+betterquesting.btn.designer=设计者
+betterquesting.btn.item=物品
+betterquesting.btn.list=列表
+betterquesting.btn.fluid=流体
+betterquesting.btn.entity=实体
+betterquesting.btn.text=文本
+betterquesting.btn.number=数字
+betterquesting.btn.object=对象
+betterquesting.btn.raw_nbt=原生NBT
+betterquesting.btn.party_new=创建队伍
+betterquesting.btn.party_leave=离开
+betterquesting.btn.party_invite=邀请
+betterquesting.btn.party_kick=踢出
+betterquesting.btn.party_join=加入
+betterquesting.btn.party_share_lives=分享生命
+betterquesting.btn.party_share_loot=单一奖励
+betterquesting.btn.icon=图标
+
+betterquesting.home.exit=退出
+betterquesting.home.quests=任务
+betterquesting.home.party=队伍
+betterquesting.home.theme=主题
+
+betterquesting.gui.name=名称
+betterquesting.gui.description=描述
+betterquesting.gui.quest_line=任务线
+betterquesting.gui.database=数据库
+betterquesting.gui.selection=选择
+betterquesting.gui.search=搜索
+betterquesting.gui.folder=文件夹
+betterquesting.gui.party_invites=邀请
+betterquesting.gui.party_members=成员
+betterquesting.gui.remaining_lives=剩余生命: %s
+betterquesting.gui.full_lives=生命已满
+betterquesting.gui.closing_warning=你确定要关闭这个编辑器吗?
+betterquesting.gui.closing_confirm=改动可能会丢失!
+betterquesting.gui.key=键名
+betterquesting.gui.no_key=无键名
+betterquesting.gui.duplicate_key=重复键名
+
+betterquesting.tooltip.tasks_complete=%s/%s 任务完成
+betterquesting.tooltip.complete=完成
+betterquesting.tooltip.incomplete=未完成
+betterquesting.tooltip.rewards_pending=未领取的奖励
+betterquesting.tooltip.requires=要求:
+betterquesting.tooltip.shift_advanced=按住SHIFT获取高级信息
+betterquesting.tooltip.reset_time=冷却: %s
+betterquesting.tooltip.main_quest=主任务: %s
+betterquesting.tooltip.global_quest=全局任务: %s
+betterquesting.tooltip.global_share=全局共享: %s
+betterquesting.tooltip.task_logic=任务逻辑: %s
+betterquesting.tooltip.simultaneous=同步任务: %s
+betterquesting.tooltip.auto_claim=自动领取: %s
+betterquesting.tooltip.repeat=冷却: %s
+betterquesting.tooltip.update_quests=有可用升级!%n§7A 新任务线已可供使用.%n点击以安装并迁移进度.
+
+betterquesting.notice.complete=任务完成
+betterquesting.notice.update=任务更新
+betterquesting.notice.unlock=任务解锁
+
+betterquesting.msg.heart_disabled=困难模式 生命未启用. 使用 "/bq_admin hardcore" 进行切换
+
+key.betterquesting.quests=打开任务
+key.betterquesting.party=队伍管理
+key.betterquesting.themes=更改主题
+
+itemGroup.betterquesting=更好的任务
+
+fluid.betterquesting.placeholder=占位符
+
+item.betterquesting.placeholder.name=物品占位符
+item.betterquesting.extra_life.full.name=一颗心
+item.betterquesting.extra_life.half.name=半颗心
+item.betterquesting.extra_life.quarter.name=四分之一颗心
+item.betterquesting.guide.name=更好的任务 新手指南
+
+tile.betterquesting.submit_station.name=对象提交站 (OSS)
+
+betterquesting.btn.help1=导航
+betterquesting.btn.help2=OSS（对象提交站） 方块
+betterquesting.btn.help3=制作任务
+betterquesting.btn.help4=指令
+betterquesting.btn.help5=导入
+betterquesting.btn.help6=主题
+betterquesting.btn.help7=本地化
+betterquesting.btn.help8=资源
+
+betterquesting.help.page1=§l§nGeneral Navigation%n§r%nBetter Questing's main questing GUIs do not rely on an item or block that could be easily lost but instead through a single keybinding which can be found and changed through the controls menu.%n%nIn the Quest Lines screen you can select any of your active lines from the list and drag around the box to navigate to the quest of your choosing to begin completing tasks.%n%nQuesting parties can be created or edited via the Party Management screens. Here you can also toggle options for sharing hardcore lives or quest rewards.%n%nIf you'd like to change the look of your questing UIs you can choose from the currently installed themes in the Theme selection screen.
+betterquesting.help.page2=§l§nSubmission Station%n§r%nAlthough many of the questing tasks can be submitted directly through your inventory (including liquids) sometimes you need a more automated solution. This is where the Object Submission Station (OSS) comes in handy. Tasks supporting the OSS can be selected through the built in interface to enable its use. Once setup, liquids and items can be either piped in or dropped into the interface's input slot however it will not void items or liquids if no task is selected or if it has already been completed making it relatively safe from accidental item/fluid deletion. Multiple OSS are also capable of taking on separate sub-tasks under the same quest simultaneously!
+betterquesting.help.page3=§l§nMaking Quests%n§r%nTo begin making quests and quest lines you will first have to enable edit mode by running the edit command (See commands for more info). You will then be able to add or remove quest lines however you do not require one to begin making quests. This is especially handy if you'd like to make secret quests that unlock other quests or quest lines.%n%nThere are several menus you will need to become familiar with while editing. These will be a little overwhelming at first compared to most other mods but over time it will get easier. Some advanced editing screens will edit raw questing data so you'd want to be very careful what you change as it could have adverse side effects however this should never result in corruption or a crash. If either occurs than you should immediately report it to a developer.
+betterquesting.help.page4=§l§nCommands%n§r%nThere are only a handful of commands you need to know when working with Better Questing. They are separated into user commands that anyone can run and admin commands which are restricted to server operators.%n%n§o/bq_user refresh%n§r%nManually resyncs the local questing database with the server in case of potential desync issues.%n%n§o/bq_user help%n§r%nGives the player a copy of this guide%n%n§o/bq_admin edit%n§r%nToggles quest editing mode on and off. When enabled, operators will be able to access the editing menus for quests and quest lines. Remember to disable this before publishing packs or quests.%n%n§o/bq_admin hardcore%n§r%nToggles on and off the use of hardcore lives. When all lives have been depleted, players will be banned from the server or have their world deleted as per standard vanilla hardcore.%n%n§o/bq_admin reset [all|<quest_id>] [username|uuid]%n§r%nErases quest completion data for the given user. Handy to use before publishing packs.%n%n§o/bq_admin default [save|load]%n§r%nSaves/loads the current quest database to/from the global default directory. Setting defaults means any newly created worlds will start with that particular set of quests. Saving will also preserve completion data, hardcore state and edit mode so be sure to use the various other command as necessary before running this one.%n%n§o/bq_admin complete <quest_id> [username|uuid]%n§r%nForce completes a quest for the given user%n%n§o/bq_admin delete [all|<quest_id>]%n§r%nDeletes given quest(s) and progression data however it does not delete new world defaults.%n%n§o/bq_admin lives [add|set|max|default] <value> [username]%n§r%nThese commands change the amount of lives players have or the starting and max values.
+betterquesting.help.page5=§l§nImporting%n§r%nSome expansion packs may include importers for other questing mods or allow pack makers to download online quest lines. To access these importers you can click on the 'Import' button in the main quest line editor. By default Better Questing does not have any importers so if you require a specific importer you'll need to either find an expansion with one or make it yourself.
+betterquesting.help.page6=§l§nThemes%n§r%nIf you're someone who prefers a certain color pallet in their UIs or are just a pack maker wanting to give it that more authentic look and feel then themes are your best friend. Themes can change the look of the questing UIs to suit whatever your needs may be whether it be futuristic, magical or just classic Minecraft. They can be installed either through resource packs, resource directory or via expansions packs.
+betterquesting.help.page7=§l§nLocalization%n§r%nBetter Questing supports full localization of quest names and descriptions so that if you wanted to release your pack to users of all nationalities now you now can! In order to begin localizing your quests you'll need to use unique keys such as "§omypack.quest1.name§r" instead of plain text. You can then create a resource pack containing only .lang files for all the language specific translations. These files can alternatively be stored in Better Questing's resource directory for better bundling in packs
+betterquesting.help.page8=§l§nResources%n§r%nIf you want to customise the home screen, bundle themes or add localization files then you can do so through: %n%n"§o/config/betterquesting/resources/<pack_name>/§r"%n%nAny folders here can be treated as unlisted resource packs containing everything required to personalize your pack.
+
+betterquesting.design.tree=树形设计
+
+betterquesting.toolbox.tab.main=主要
+
+betterquesting.toolbox.tool.open.name=打开
+betterquesting.toolbox.tool.open.desc=打开一个任务以进一步编辑
+betterquesting.toolbox.tool.grab.name=抓取
+betterquesting.toolbox.tool.grab.desc=抓取任务并移动到任务线的其他位置
+betterquesting.toolbox.tool.link.name=连接
+betterquesting.toolbox.tool.link.desc=将该任务设置为其他任务的前置条件. 如果连接存在，则将其删除
+betterquesting.toolbox.tool.snap.name=网格快照
+betterquesting.toolbox.tool.snap.desc=更改网格快照分辨率以便使用各种其他工具
+betterquesting.toolbox.tool.copy.name=复制
+betterquesting.toolbox.tool.copy.desc=复制选定的任务，包括前置条件，任务和奖励，但不包括进度数据
+betterquesting.toolbox.tool.new.name=新任务
+betterquesting.toolbox.tool.new.desc=创建一个新的空任务
+betterquesting.toolbox.tool.delete.name=删除任务
+betterquesting.toolbox.tool.delete.desc=从任务线和数据库中删除选定的任务
+betterquesting.toolbox.tool.remove.name=移除任务
+betterquesting.toolbox.tool.remove.desc=仅将选定任务从任务线中移除。 该任务仍可通过数据库访问
+betterquesting.toolbox.tool.complete.name=手动完成
+betterquesting.toolbox.tool.complete.desc=强制完成所选任务
+betterquesting.toolbox.tool.reset.name=重置任务
+betterquesting.toolbox.tool.reset.desc=重置任务完成状态和任务的所有进度
+betterquesting.toolbox.tool.icon.name=选择图标
+betterquesting.toolbox.tool.icon.desc=更改此任务的图标
+betterquesting.toolbox.tool.scale.name=缩放图标
+betterquesting.toolbox.tool.scale.desc=向上或向下缩放任务图标
+betterquesting.toolbox.tool.raw.name=编辑原始数据
+betterquesting.toolbox.tool.raw.desc=打开任务线的原声JSON以供编辑. 包括其他隐藏设定，比如更改背景
+
+betterquesting.cmd.complete=任务已完成 %s   对 %s
+betterquesting.cmd.default.save=任务数据库保存为默认值
+betterquesting.cmd.default.save2=任务数据库已保存到 %s
+betterquesting.cmd.default.load=重新加载默认的任务数据库
+betterquesting.cmd.default.load2=从 %s 读取任务数据库
+betterquesting.cmd.default.set=设置 %s 为默认任务数据库
+betterquesting.cmd.default.none=未找到任务数据库
+betterquesting.cmd.delete.single=删除任务 %s
+betterquesting.cmd.delete.all=删除所有任务
+betterquesting.cmd.edit=编辑模式 %s
+betterquesting.cmd.hardcore=硬核（困难）模式 %s
+
+betterquesting.cmd.lives.add_player=添加 %s 生命到 %s (总计: %s)
+betterquesting.cmd.lives.add_all=添加 %s 生命到所有玩家
+betterquesting.cmd.lives.remove_player=移除 %s 生命自 %s (总计: %s)
+betterquesting.cmd.lives.remove_all=移除 %s 生命自所有玩家
+betterquesting.cmd.lives.set_player=设置 %s 的生命为 %s
+betterquesting.cmd.lives.set_all=设置所有玩家的生命为 %s
+betterquesting.cmd.lives.max=设置最大生命为 %s
+betterquesting.cmd.lives.default=设置默认生命为 %s
+
+betterquesting.cmd.reset.player_single=重置任务 '%s'   为 %s
+betterquesting.cmd.reset.player_all=重置所有任务 为 %s
+betterquesting.cmd.reset.all_single=重置任务 '%s'   为所有人
+betterquesting.cmd.reset.all_all=为所有人重置全部任务
+betterquesting.cmd.refresh=刷新本地数据库...
+
+json.betterquesting.quest.name=任务数据
+jdoc.betterquesting.quest.rewards.name=奖励
+jdoc.betterquesting.quest.rewards.desc=所有可配置的奖励类型
+jdoc.betterquesting.quest.tasks.name=任务
+jdoc.betterquesting.quest.tasks.desc=所有可配置的任务类型
+jdoc.betterquesting.quest.preRequisites.name=前置条件
+jdoc.betterquesting.quest.preRequisites.desc=所有用于解锁此任务的父任务ID
+jdoc.betterquesting.quest.properties.name=属性
+jdoc.betterquesting.quest.properties.desc=定义任务外观和功能属性
+
+jdoc.betterquesting.quest.properties.betterquesting.name=更好的任务
+jdoc.betterquesting.quest.properties.betterquesting.desc=更好的任务属性
+
+##############
+# Quest Line #
+##############
+
+Gregtania6Skyblock.T0.name=Tier0 - 世界伊始
+Gregtania6Skyblock.T0.desc=了解基本信息并学习如何在这个世界生存下去.
+
+Gregtania6Skyblock.T1.name=Tier1 - 蒸汽时代
+Gregtania6Skyblock.T1.desc=了解GregTech6的起步阶段.
+
+Gregtania6Skyblock.T2.name=Tier2 - 低压（LV）电力时代
+Gregtania6Skyblock.T2.desc=制作铝是GT6的第一道难关.
+
+Gregtania6Skyblock.T3.name=Tier3 - 中压（MV）电力时代
+Gregtania6Skyblock.T3.desc=让我们来建设电力机器基地.%n钛的加工是GT6的第二部分.
+
+Gregtania6Skyblock.T4.name=Tier4 - 高压（HV）电力时代
+Gregtania6Skyblock.T4.desc=钨的加工是GT6的第三部分.
+
+Gregtania6Skyblock.T5.name=Tier5 - 甚高压（EV）电力时代
+Gregtania6Skyblock.T5.desc=制造高阶电路板和机器.
+
+Gregtania6Skyblock.T6.name=Tier6 - 特高压（IV）电力时代
+Gregtania6Skyblock.T6.desc=为GregTech完结做准备，获取更多的能源.
+
+Gregtania6Skyblock.T7.name=Tier7 - 无限进化
+Gregtania6Skyblock.T7.desc=无限进化，无限可能.
+
+Gregtania6Skyblock.LM.name=大型机械
+Gregtania6Skyblock.LM.desc=更高速度! 更多能量!
+
+Gregtania6Skyblock.AP.name=自动处理
+Gregtania6Skyblock.AP.desc=让万物自动化.
+
+#Gregtania6Skyblock.EO.name=Exchange Ores
+#Gregtania6Skyblock.EO.desc=Let's find Gregtech6 Veins.
+
+#########
+# Quest #
+#########
+
+Gregtania6Skyblock.Q0.name=欢迎来到Gregtech6 Skyblock
+Gregtania6Skyblock.Q0.desc=此整合包旨在通过任务学习GregTech6（GT6）。%n请注意，由于GT6的更新，游戏内容可能会有改动，但我确信您可以在此了解到基本信息和知识。%n%n我尽可能少地编写了影响GT6发展到的任务。有很多非常有用的机器和物品，请尽情享受！%n%n在开始玩之前，你需要知道你是有可能搞砸的。§a§a不要破坏所有的草块。§a不要丢失物品。尤其是你必须确保岛上有活根。%n§f3. §a不要弄坏水。§f%n%n此整合包使用我修改过的mods为您提供舒适的游戏。我不擅长Java（编程语言），所以它会有很多错误。§a不要在游戏崩溃时向mods作者反馈错误。§f请向我的GitHub报告问题。%n%n有用的信息：%n*您可以编辑搜索文本框中任意字符，而并非只是最后一个。%n*您可以在NEI中按“A”为项目添加书签。%n*在NEI中支持高级搜索@modid itemname%n*从 更好的任务3 开始，您可以通过单击项目图标来查看合成表。%n*单击NEI中的矿石时，您可以在NEI中看到GT6矿脉信息（这在下界和末地非常有用）
+
+Gregtania6Skyblock.Q1.name=获取圆石 
+Gregtania6Skyblock.Q1.desc=你没有石头. 而且这个岛用来生存实在是太小了.%n如何才能活下去并且稳步发展?%n%n这当然不是问题. 你可以无限地从泥土中获取岩石.%n按住SHIFT并空手右键泥土来获取岩石
+
+Gregtania6Skyblock.Q2.name=获取木头
+Gregtania6Skyblock.Q2.desc=在你的岛上（汉化作者：在岛的下面）有活根. %n 破坏这些方块来得到获取木头的资源.
+
+Gregtania6Skyblock.Q3.name=工作台
+Gregtania6Skyblock.Q3.desc=是的，和原版一样.
+
+Gregtania6Skyblock.Q4.name=散装木材
+Gregtania6Skyblock.Q4.desc=GT6的斧头非常有用，因为它可以一次性砍掉整棵树.%n%n 如果你用斧头右键原木, 你可以获得木梁和树皮 (用来当燃料很不错.)%n
+
+Gregtania6Skyblock.Q5.name=为了骨头！
+Gregtania6Skyblock.Q5.desc=请注意，你需要黑暗的环境来产生怪物.%n同时，你需要一个完美的设计，来在你攻击怪物的时候不会受到伤害.
+
+Gregtania6Skyblock.Q6.name=挖掘工具
+Gregtania6Skyblock.Q6.desc=原版工具惨遭削弱，你需要使用GT6的工具.
+
+Gregtania6Skyblock.Q7.name=t0.q7.name
+Gregtania6Skyblock.Q7.desc=t0.q7.desc
+
+Gregtania6Skyblock.Q8.name=制作刀来获取工具和干草
+Gregtania6Skyblock.Q8.desc=用刀来破坏草，你可以获得干草.%n%n用刀干掉你的朋友会非常有趣，不是吗？
+
+Gregtania6Skyblock.Q9.name=用干草获取火源
+Gregtania6Skyblock.Q9.desc=将草捆放置在世界中.%n它会变成干草捆，可以用来生火.
+
+Gregtania6Skyblock.Q10.name=要有光！
+Gregtania6Skyblock.Q10.desc=当你扩张了岛屿之后，你需要光源来阻止怪物生成.
+
+Gregtania6Skyblock.Q11.name=烤东西
+Gregtania6Skyblock.Q11.desc=在低温下烧烤.
+
+Gregtania6Skyblock.Q12.name=万物之源
+Gregtania6Skyblock.Q12.desc=植物魔法和格雷魔法需要很多很多的石头
+
+Gregtania6Skyblock.Q13.name=保存物品
+Gregtania6Skyblock.Q13.desc=你需要保存物品. %n这个整合包不包含墓碑模组.
+
+Gregtania6Skyblock.Q14.name=点石成矿
+Gregtania6Skyblock.Q14.desc=把石头放在这朵花附近，你可以获得很多矿石.%n%n你需要另一个石头来获得另一个矿石.
+
+Gregtania6Skyblock.Q15.name=舀水
+Gregtania6Skyblock.Q15.desc=无限水被移除了！但是你需要水来进行植物魔法的浸注合成.%n这件物品可以在你取水的同时不损失水.
+
+Gregtania6Skyblock.Q16.name=破坏王
+Gregtania6Skyblock.Q16.desc=锤子可以用来...%n1. 破坏圆石可以获得沙砾.%n2. 破坏矿石可以获得粉碎的矿物.%n3. 合成
+
+Gregtania6Skyblock.Q17.name=t0.q17.name
+Gregtania6Skyblock.Q17.desc=t0.q17.desc
+
+Gregtania6Skyblock.Q18.name=养点花花草草
+Gregtania6Skyblock.Q18.desc=花和草可以用来生火，植物魔法，花粉等等.
+
+Gregtania6Skyblock.Q19.name=暴力膜不可活 (1)
+Gregtania6Skyblock.Q19.desc=从原版和GT6获取新资源是不可能的, 但是植物魔法的神秘花朵可以
+
+Gregtania6Skyblock.Q20.name=t0.q20.name
+Gregtania6Skyblock.Q20.desc=t0.q20.desc
+
+Gregtania6Skyblock.Q21.name=t0.q21.name
+Gregtania6Skyblock.Q21.desc=t0.q21.desc
+
+Gregtania6Skyblock.Q22.name=整点花粉
+Gregtania6Skyblock.Q22.desc=花粉可以用来增加花肥的产量.
+
+Gregtania6Skyblock.Q23.name=暴力膜不可活 (2)
+Gregtania6Skyblock.Q23.desc=这个方式可以更高效的获取神秘花.
+
+Gregtania6Skyblock.Q24.name=t0.q24.name
+Gregtania6Skyblock.Q24.desc=t0.q24.desc
+
+Gregtania6Skyblock.Q25.name=花瓣药剂师
+Gregtania6Skyblock.Q25.desc=你可以制作有用的植物魔法花.%n用碗舀水，再把物品和一颗种子扔进去.
+
+Gregtania6Skyblock.Q26.name=白雏菊
+Gregtania6Skyblock.Q26.desc=1. 把石头转化成活石%n2. 把原木转化成活木%n%n你需要将石头和原木放置在白雏菊周围.%n转化过程将会花费80秒.
+
+Gregtania6Skyblock.Q27.name=把原木转化成活木
+Gregtania6Skyblock.Q27.desc=植物魔法会用到.
+
+Gregtania6Skyblock.Q28.name=把石头转化成活石
+Gregtania6Skyblock.Q28.desc=植物魔法会用到.
+
+Gregtania6Skyblock.Q29.name=最好的熔炉燃料
+Gregtania6Skyblock.Q29.desc=这只是一个提醒事项任务.%n%n用斧头右键原木获得树皮.%n
+
+Gregtania6Skyblock.Q30.name=魔力池
+Gregtania6Skyblock.Q30.desc=保存魔力，你可以把它用在各种地方.
+
+Gregtania6Skyblock.Q31.name=将魔力传输进魔力池
+Gregtania6Skyblock.Q31.desc=使用森林法杖并传输魔力.
+
+Gregtania6Skyblock.Q32.name=森林法杖
+Gregtania6Skyblock.Q32.desc=它有两个模式. 按住SHIFT右键可以切换模式.%n%n1. 绑定模式 - 连接以传输魔力.%n2. 工作模式
+
+Gregtania6Skyblock.Q33.name=在晚上产生魔力
+Gregtania6Skyblock.Q33.desc=在晚上产生魔力, 但是产量很低，而且花朵会凋零.
+
+Gregtania6Skyblock.Q34.name=在白天产生魔力
+Gregtania6Skyblock.Q34.desc=在白天产生魔力, 但是产量很低，而且花朵会凋零.
+
+Gregtania6Skyblock.Q35.name=t0.q35.name
+Gregtania6Skyblock.Q35.desc=t0.q35.desc
+
+Gregtania6Skyblock.Q36.name=魔力尘
+Gregtania6Skyblock.Q36.desc=用森林法杖将产能花产生的魔力传输到魔力池.%n在储存了一些魔力后，将物品丢进魔力池将进行转换.
+
+Gregtania6Skyblock.Q37.name=生产更多魔力
+Gregtania6Skyblock.Q37.desc=将燃料扔在这朵花旁边，将产生更多魔力.%n%n这种花不会枯萎.
+
+Gregtania6Skyblock.Q38.name=更高效地产生基础矿石
+Gregtania6Skyblock.Q38.desc=如果你只需要像铜这样的基础矿石, 你可以用这个.
+
+Gregtania6Skyblock.Q39.name=获得燧石
+Gregtania6Skyblock.Q39.desc=你有两种方式可以获得沙砾.%n%n1. 合成g%n2. 放置圆石，然后用锤子破坏它%n%n当然，你可以用破坏沙砾的方式获取燧石.
+
+Gregtania6Skyblock.Q40.name=再来点矿石 Lv.1
+Gregtania6Skyblock.Q40.desc=这种花可以把石头变成各种石头.%n%n更多信息详见我的Execl表格或植物魔法书.
+
+Gregtania6Skyblock.Q41.name=制造粘土来获得工具和坩锅
+Gregtania6Skyblock.Q41.desc=将沙砾放在这种花的周围可以获得粘土.
+
+Gregtania6Skyblock.Q42.name=将沙砾转化成粘土
+Gregtania6Skyblock.Q42.desc=放置沙砾，获得粘土.%n需要魔力才能工作.
+
+Gregtania6Skyblock.Q43.name=获得HU
+Gregtania6Skyblock.Q43.desc=方块顶面会输出16HU.
+
+Gregtania6Skyblock.Q44.name=Tier1 金属 : 铜
+Gregtania6Skyblock.Q44.desc=这是基础材料.
+
+Gregtania6Skyblock.Q45.name=Tier1 金属 : 铅
+Gregtania6Skyblock.Q45.desc=这是基础材料.
+
+Gregtania6Skyblock.Q46.name=金属加工铁砧
+Gregtania6Skyblock.Q46.desc=用来弯曲金属.
+
+Gregtania6Skyblock.Q47.name=凿子
+Gregtania6Skyblock.Q47.desc=用来合成和凿模具.
+
+Gregtania6Skyblock.Q48.name=低温冶炼坩锅
+Gregtania6Skyblock.Q48.desc=这种坩锅可以维持2500K的温度f.%n如果温度达到2500K, 它就炸了.
+
+Gregtania6Skyblock.Q49.name=模具
+Gregtania6Skyblock.Q49.desc=你可以用模具从坩锅中获得金属.%n有很多可用的形式.%n介绍一些形式. (你可以在FTB wiki看到更多详情.)%nhttps://ftb.gamepedia.com/Mold_(GregTech_6)%n%nO - 别凿%nX - 用凿子凿一下%n%n1. 锭 (需要 1 单位)%n%nXXXOO%nXXXOO%nXXXOO%nXXXOO%nXXXOO%n%n2. 板 (需要 1 单位)%n%nXXXXX%nXXXXX%nXXXXX%nXXXXX%nXXXXX
+
+Gregtania6Skyblock.Q50.name=新材料 : 铁
+Gregtania6Skyblock.Q50.desc=用这些方式可以很简单地获得铁. (当然不止这些合成方式啦.)%n%n1. 黄色褐铁矿 : Carbon = 4 : 1%n2. 褐色褐铁矿 : Carbon = 4 : 1%n%n熔化 : 1811K%n%n不要让温度太高，它会变成锻铁 (2011K)
+
+Gregtania6Skyblock.Q51.name=Before to fire
+Gregtania6Skyblock.Q51.desc=Now it's time to use the crucible.%n%nBefore to fire the burning box, you need to confirm these things.%n%n1. Place Burning box. Place Crucible on the burning box. Then place mold next to the crucible.%n%n2. Throw your materials to the top of the crucible. Crucible can hold 16 units.%n%n3. Don't touch crucible and mold which contains hot materials, or you'll get damage. You can use hopper or pincer for taking materials quickly and safely.%n%n4. Need fuels to fire. Place something else to fire in the burning box and use Igniter. (Ex: Flint and Steel, Match, Fire Starter and so on)%n%n5. If you want to get carbon dust at this stage, you need to use coal as fuels.%n%n6. Use NEI and confirm how temperature it melts.%n%n7. If you want to stop burning, you need to place a block in front of the burning box (Need times to stop so you need to place before the temperature you want.) or break the burning box by using wrench. %n%n8. You can output materials by clicking mold.%n%n9. If you want to get bronze, the color of the top is [ Black(Not melt) - White(Tin melts) - Orange(Copper melts and mix them, became Bronze) ]%n%n10. There is the thermomater which can visible the temperature of the crucible. Wait a quest.
+
+Gregtania6Skyblock.Q52.name=Automatic output items
+Gregtania6Skyblock.Q52.desc=If you place below the mold, it'll output automatically.
+
+Gregtania6Skyblock.Q53.name=File
+Gregtania6Skyblock.Q53.desc=You can use for many recipes.
+
+Gregtania6Skyblock.Q54.name=Wrench
+Gregtania6Skyblock.Q54.desc=It is used for crafting, connecting pipes and breaking machines without losting.%n%nIf you click machines with Wrench, you can change direction of machines.
+
+Gregtania6Skyblock.Q55.name=Mana ingot
+Gregtania6Skyblock.Q55.desc=Throw iron ingot to mana pool and you can get manasteel.
+
+Gregtania6Skyblock.Q56.name=Anvil Bending
+Gregtania6Skyblock.Q56.desc=If you want to bend metal form, you can use anvil with hammer.%nThere are 3 types to work.%n%n1. Anvil Bending(Big)%nPlace a item and click the side with hammer where there isn't "NEI".  %n%n2. Anvil Bending%nPlace two items on the top of Anvil and click top with hammer.%n%n3. Anvil Bending(Small)%nPlace a item and click the side with hammer where there is "NEI".
+
+Gregtania6Skyblock.Q57.name=Earth rune
+Gregtania6Skyblock.Q57.desc=It's used for some recipes.
+
+Gregtania6Skyblock.Q58.name=Wash crushed ores and get byproducts
+Gregtania6Skyblock.Q58.desc=Fill water by using buckets and throw crushed or impure ore.%nYou can get byproducts and clean ore.%n%nIt's better to place this in infinity water because if you have already throw crushed ore into Cauldron, you only need to click Cauldron with a bucket to get clean ores.
+
+Gregtania6Skyblock.Q59.name=Need another ores Lv.2
+Gregtania6Skyblock.Q59.desc=You can get more stones but you need to get Stratodendron 3 for next stage.
+
+Gregtania6Skyblock.Q60.name=Need another ores Lv.3
+Gregtania6Skyblock.Q60.desc=Now you can get diamond and Cinnabar.
+
+Gregtania6Skyblock.Q61.name=Diamond!
+Gregtania6Skyblock.Q61.desc=§fUse sifter to get. (15% chance)
+
+Gregtania6Skyblock.Q62.name=Hatch animal eggs
+Gregtania6Skyblock.Q62.desc=Place and wait some times, some animals come.
+
+Gregtania6Skyblock.Q63.name=Summon Blaze
+Gregtania6Skyblock.Q63.desc=You need to get blaze powder for going to the nether. Then let's summon blaze.%nPlace Fel Pumpkin, and iron bars up and down.
+
+Gregtania6Skyblock.Q64.name=Crush things
+Gregtania6Skyblock.Q64.desc=You can shredder many things.
+
+Gregtania6Skyblock.Q65.name=New material : Steel
+Gregtania6Skyblock.Q65.desc=Iron : Carbon = 50 : 1%n2046K
+
+Gregtania6Skyblock.Q66.name=New material : Bronze
+Gregtania6Skyblock.Q66.desc=Tin : Copper = 1 : 3%n1357K
+
+Gregtania6Skyblock.Q67.name=Get more HU power
+Gregtania6Skyblock.Q67.desc=Create 24 HU on the top of this by using solid fuels.%n%nIf you use coal fuel, you can get carbon.
+
+Gregtania6Skyblock.Q68.name=Create steam
+Gregtania6Skyblock.Q68.desc=You can output steam from the top side.%nPlease note that you need to input water for stopping explosion. If it losts all water then it'll exprode.%n%nThere is two water you can input.%n1. Water - It's normal water. Power falls down 1/2. %n2. Distilled water - It's clean water.%n%nYou need to endure using normal water now, but after making infinity water, Drain and Dryer you can use Distilled water.%n%nYou can see boiler status on the circle of the boiler.%nGreen - Working correctly%nRed - It'll explode%n%nIf you create steams more than turbine/engine limit, the machine will be overheat and stop working.
+
+Gregtania6Skyblock.Q69.name=Convert steam to RU power
+Gregtania6Skyblock.Q69.desc=Bronze Steam Turbine generates 32 RU.%n%nInput steam at a big hole and output RU at a turbine side.
+
+Gregtania6Skyblock.Q70.name=Convert steam to KU power
+Gregtania6Skyblock.Q70.desc=Some machines need KU power to work.%nBronze Steam Engine output 32KU/t.%n%nYou can input steams at big hole, and KU power will output at blue side.
+
+Gregtania6Skyblock.Q71.name=Botanical altar
+Gregtania6Skyblock.Q71.desc=Some items require a ritual by using this alter.%nHold items and click this alter for putting on.%nNeed mana to work.
+
+Gregtania6Skyblock.Q72.name=Input water for boilers
+Gregtania6Skyblock.Q72.desc=It's generally that you can't drain infinity water and use pipe to input now.%nYou can use this to imput water to boiler tank with water bucket.
+
+Gregtania6Skyblock.Q73.name=Another convert recipes
+Gregtania6Skyblock.Q73.desc=Place below the mana pool, then you can make more items.
+
+Gregtania6Skyblock.Q74.name=Thermometer for crucible
+Gregtania6Skyblock.Q74.desc=You can see how temperature the crucible is.%nIt's very useful, isn't it?%n%nYou throw mercury to the crucible and melt, after that click with empty bottle, then you can get Mercury bottle.%n%nPlace to the crucible and you can see the temperature.
+
+Gregtania6Skyblock.Q75.name=Get sand
+Gregtania6Skyblock.Q75.desc=Throw cobblestone to Mana pool.
+
+Gregtania6Skyblock.Q76.name=More efficiency to cut down trees
+Gregtania6Skyblock.Q76.desc=Tall and straight woods are good for cutting down.
+
+Gregtania6Skyblock.Q77.name=Get Blaze rod
+Gregtania6Skyblock.Q77.desc=Find out Nether Fortress.
+
+Gregtania6Skyblock.Q78.name=Sifting table
+Gregtania6Skyblock.Q78.desc=You can get refined ore and byproducts from purified ore.
+
+Gregtania6Skyblock.Q79.name=Get 2x ores
+Gregtania6Skyblock.Q79.desc=You can get 2x crushed ore.%nThis modpack is skyblock so you need not to waste.
+
+Gregtania6Skyblock.Q80.name=Centrifuge
+Gregtania6Skyblock.Q80.desc=This machine is one of the main machine which is used for ore processing.
+
+Gregtania6Skyblock.Q81.name=Wash crushed ores and get more byproducts
+Gregtania6Skyblock.Q81.desc=You can wash crushed ores automatically.%nYou need to process sluice juice.
+
+Gregtania6Skyblock.Q82.name=Make Dense plates
+Gregtania6Skyblock.Q82.desc=You can compress plates and get dense plate.%n%nThis machine is unstable, so you had better upgrade steam amount and turbine.%n2x bronze steam turbine(96 steam) + brass turbine is better to use.%nAfter making strong turbine, you can replace them.
+
+Gregtania6Skyblock.Q83.name=Drain water
+Gregtania6Skyblock.Q83.desc=Drain water(1 block / 1000mB).%nYou need to place to pipes witch can transport over 1000mB or machines directly.%n%nIf you disabled infinity water by CodeChickenCore.cfg, you need to use this drain in the river or ocean water. It's infinity to get water even if it's disabled.
+
+Gregtania6Skyblock.Q84.name=Clean water
+Gregtania6Skyblock.Q84.desc=You can make Distilled Water from water and sluice juice.
+
+Gregtania6Skyblock.Q85.name=Water power
+Gregtania6Skyblock.Q85.desc=It's used for some recipes.%n%nI add a recipe that can meke ender pearl by this rune.%nMake Ghast Tear and convert ender pearl.
+
+Gregtania6Skyblock.Q86.name=Create water
+Gregtania6Skyblock.Q86.desc=Create water by using mana in the mana tablet.%n%nNow you can get infinity water.
+
+Gregtania6Skyblock.Q87.name=Create dirt
+Gregtania6Skyblock.Q87.desc=Create dirt by using mana in the mana tablet.
+
+Gregtania6Skyblock.Q88.name=Glass bottle
+Gregtania6Skyblock.Q88.desc=Need for some recipes.
+
+Gregtania6Skyblock.Q89.name=Scoop and move water
+Gregtania6Skyblock.Q89.desc=You can transport low temperature liquid such as water.%n%nDon't try to transport Lava.
+
+Gregtania6Skyblock.Q90.name=Get charcoal and creosote
+Gregtania6Skyblock.Q90.desc=Now you can get charcoal and creosote from wood logs.%n%nAfter input wood logs, use Ignition to coke oven.%nThere is a limit coke oven can hold creosote. If it reachs limit, coke oven will stop.%n%nYou can use hopper on the top for auto-input and below it for auto-output.%nUse fluid pipe below it and you can auto-output creosote.%nDon't forget you need to connect by using wrench.
+
+Gregtania6Skyblock.Q91.name=Keep liquid
+Gregtania6Skyblock.Q91.desc=You need to keep Creosote and Distilled water.%nThere is a tank which keeps little water, but it's not enough.%n%nThere are various walls such as wood, stainless steel and so on.%n%nWood wall can keep 432000mB liquid.%n%nYou can input liquid at any position but output must use valve.
+
+Gregtania6Skyblock.Q92.name=Soft hammer
+Gregtania6Skyblock.Q92.desc=You can use for many recipes.
+
+Gregtania6Skyblock.Q93.name=Saw
+Gregtania6Skyblock.Q93.desc=You can use for many recipes.
+
+Gregtania6Skyblock.Q94.name=Mix things
+Gregtania6Skyblock.Q94.desc=You can mix things.
+
+Gregtania6Skyblock.Q95.name=Carbon source
+Gregtania6Skyblock.Q95.desc=It's too dificult to get carbon because of stocking coal.%n%nThen there is the another recipe that you can get carbon dust.%n%n[Mix] Charcoal + Quartz -> Black Quartz%n[Centrifuge] Black Quartz -> Carbon
+
+Gregtania6Skyblock.Q96.name=Dense copper plate
+Gregtania6Skyblock.Q96.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q97.name=New material : Brass
+Gregtania6Skyblock.Q97.desc=Cu : Zn = 3 : 1%n1160K
+
+Gregtania6Skyblock.Q98.name=Dense bronze plate
+Gregtania6Skyblock.Q98.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q99.name=Burned by fluid fuel
+Gregtania6Skyblock.Q99.desc=Use fluid fuels instead of solid fuels.%n%nYou can stop burning quickly if you place a block in front of this.
+
+Gregtania6Skyblock.Q100.name=Fire things
+Gregtania6Skyblock.Q100.desc=It's used to fire for many times.
+
+Gregtania6Skyblock.Q101.name=Transport high temperature fluid
+Gregtania6Skyblock.Q101.desc=Wooden pipe will burn but this pipe won't burn.
+
+Gregtania6Skyblock.Q102.name=Convert ingot to plate
+Gregtania6Skyblock.Q102.desc=You can convert ingot to plate without using crucible.
+
+Gregtania6Skyblock.Q103.name=Convert ingot to wire
+Gregtania6Skyblock.Q103.desc=If you use cutter wire, you only get 1x wire.%n%nThis machine will make 2x wire.
+
+Gregtania6Skyblock.Q104.name=Reload quests
+Gregtania6Skyblock.Q104.desc=After updating this modpack and there is the quest changes, you need to reload quests.
+
+Gregtania6Skyblock.Q105.name=Lathe
+Gregtania6Skyblock.Q105.desc=You can get rod from ingot. But there is little loss so it's best to use crucible.
+
+Gregtania6Skyblock.Q106.name=Buzzsaw
+Gregtania6Skyblock.Q106.desc=It's worked as saw.
+
+Gregtania6Skyblock.Q107.name=Go to the nether
+Gregtania6Skyblock.Q107.desc=Now you can go to the nether.%n%n You can find rocks of GT6 on the ground. This rock means it's possible that there is the ore vein near it.
+
+Gregtania6Skyblock.Q108.name=Oxygen reactions
+Gregtania6Skyblock.Q108.desc=You can separate special materials that reacts with Oxygen such as Tetrahedrite.
+
+Gregtania6Skyblock.Q109.name=Transform every form
+Gregtania6Skyblock.Q109.desc=You can transform material forms to every shape.
+
+Gregtania6Skyblock.Q110.name=Tranport items
+Gregtania6Skyblock.Q110.desc=You can transport items.%n%nItem pipe can't output from chests, but if you use conveyor, you can do it.%n%nUse hopper, barrel auto-output or machine auto-output and transport items now.
+
+Gregtania6Skyblock.Q111.name=Extruder shape
+Gregtania6Skyblock.Q111.desc=There are many shapes.%nPlease note that steel extruder can transform few materials.%n%nAt least you need to make plate shape.
+
+Gregtania6Skyblock.Q112.name=Need more HU
+Gregtania6Skyblock.Q112.desc=This burning box outputs 96HU.
+
+Gregtania6Skyblock.Q113.name=Create more steam
+Gregtania6Skyblock.Q113.desc=This boiler outputs 192 steam.
+
+Gregtania6Skyblock.Q114.name=Shredder
+Gregtania6Skyblock.Q114.desc=You can shredder things such as refined ore.
+
+Gregtania6Skyblock.Q115.name=Get grass and leaves
+Gregtania6Skyblock.Q115.desc=You need grass and leaves for some recipes.%nOf course it's useful for collecting wools.
+
+Gregtania6Skyblock.Q116.name=Remove tree leaves
+Gregtania6Skyblock.Q116.desc=You can remove tree leaves quickly.%nKeep pressing shift and rifht-click to work.
+
+Gregtania6Skyblock.Q117.name=Transport low temperature fluid
+Gregtania6Skyblock.Q117.desc=Use wrench to connect.%nWooden pipe will burn and disappear if there is fire near this.
+
+Gregtania6Skyblock.Q118.name=Keep large amount items
+Gregtania6Skyblock.Q118.desc=Do you need to keep many same items?%nYou can use this for keeping 5000 items.
+
+Gregtania6Skyblock.Q119.name=Rods need mana to work
+Gregtania6Skyblock.Q119.desc=It's used for using crafting, using botania wand and moving Mana.
+
+Gregtania6Skyblock.Q120.name=Dense invar plate
+Gregtania6Skyblock.Q120.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q121.name=Barrel outputs items automatically
+Gregtania6Skyblock.Q121.desc=Click a barrel with this and barrel can output automatically.
+
+Gregtania6Skyblock.Q122.name=Remove a plate on the wrong place
+Gregtania6Skyblock.Q122.desc=You can separete plates and machines.
+
+Gregtania6Skyblock.Q123.name=Need more efficiency HU
+Gregtania6Skyblock.Q123.desc=Efficiency is 100%, it's good for burning.
+
+Gregtania6Skyblock.Q124.name=For item pipes
+Gregtania6Skyblock.Q124.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q125.name=Take hot materials quickly!
+Gregtania6Skyblock.Q125.desc=You can take materials quickly from the mold without damages.
+
+Gregtania6Skyblock.Q126.name=Siftier
+Gregtania6Skyblock.Q126.desc=Yes, it's automatic sifter
+
+Gregtania6Skyblock.Q127.name=Accept more steam
+Gregtania6Skyblock.Q127.desc=Bronze steam turbine only accept 24-96 steam but it isn't enough.%n%nBrass steam turbine can accept 36-144 steam.
+
+Gregtania6Skyblock.Q128.name=Treated woods
+Gregtania6Skyblock.Q128.desc=You can use few Bath recipes in this machine.%nUse pipe to input fluid and click with items, then you can mix them and get finished products.
+
+Gregtania6Skyblock.Q129.name=Get Slimeball
+Gregtania6Skyblock.Q129.desc=It's easy way to get slimeball.
+
+Gregtania6Skyblock.Q130.name=Increase slimeball
+Gregtania6Skyblock.Q130.desc=You can get infinity slimeball from cactus.
+
+Gregtania6Skyblock.Q131.name=Wire cutter
+Gregtania6Skyblock.Q131.desc=It's used for crafting and connecting wire.
+
+Gregtania6Skyblock.Q132.name=Drain air
+Gregtania6Skyblock.Q132.desc=You can drain Air.
+
+Gregtania6Skyblock.Q133.name=Show all quests
+Gregtania6Skyblock.Q133.desc=I suggest you see all quests before playing this modpack if your purpose is learning GT6.%nIt's important to see whole process.%n%nYou need to get OP to do.
+
+Gregtania6Skyblock.Q134.name=Best material for tools
+Gregtania6Skyblock.Q134.desc=Cobalt is the best material in low tier age.%nCobalt can be made Lv3 tools, so you can mine Diamond Ore with cobalt pickaxe.
+
+Gregtania6Skyblock.Q135.name=Finished preparing for electric age
+Gregtania6Skyblock.Q135.desc=You have made almost basic machines that use steam.%nBut you can't keep steam so it's little bad.%n%nThen, let's make electric machines and batteries.%n%nIn this GT6 version, you can make Carbon Crucible.%nBut I change its recipe because it's OP.
+
+Gregtania6Skyblock.Q136.name=New material : Stainless steel
+Gregtania6Skyblock.Q136.desc=Chromium : Manganese : Invar : Iron = 1 : 1 : 3 : 4%n= Chromium : Manganese : Nickel : Iron = 1 : 1 : 2 : 5%n2011K
+
+Gregtania6Skyblock.Q137.name=Portable Drum
+Gregtania6Skyblock.Q137.desc=This Drum can keep more high temperature fluid or gas.
+
+Gregtania6Skyblock.Q138.name=Oil processing
+Gregtania6Skyblock.Q138.desc=You need to get plastic for making circuit plate.%nYou need to process oil and get the intermediate material of plustic and many fuels.%n%nThere are 2 ways to get Oil.%n1. Process Oil Shale and get Oil Shade Dust, then process it in Coke Oven.%n2. Centrifuge Soulsand.%n%nPlace Heat Acceptor 3 * 3 on the bottom row.%nPlace Distillation Tower on the center of second to bottom row instead of Distillation Tower Part.%nPlace Distillation Tower Part on them.%n%n〇=Distillation Tower Part%n@=Distillation Tower%nH=Heat Acceptor%nB=Burning Box(You can put many Burning Box) 64-256HU%n%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇〇〇%n〇@〇%nHHH%nBBB
+
+Gregtania6Skyblock.Q139.name=Mix materials
+Gregtania6Skyblock.Q139.desc=You have used the crucible for many materials, but now you can get mixed dust such as bronze.
+
+Gregtania6Skyblock.Q140.name=Precipitate things
+Gregtania6Skyblock.Q140.desc=You can get rubber from this machine.
+
+Gregtania6Skyblock.Q141.name=Rubber
+Gregtania6Skyblock.Q141.desc=It's used for cable cover.%n%nProcess Latex to get.
+
+Gregtania6Skyblock.Q142.name=Sulfur Trioxide
+Gregtania6Skyblock.Q142.desc=You can get Sulfur Trioxide in Mixer.%n1.Air or Nether Air%n2.Sulfur Dioxide%n3.Platinum Dust%n%nYou can get Platinum Dust by processing Nickel Ore.
+
+Gregtania6Skyblock.Q143.name=Sulfuric Acid
+Gregtania6Skyblock.Q143.desc=You can get Sulfur Acid in Mixer.%n%nMix Sulfur Trioxide and water.
+
+Gregtania6Skyblock.Q144.name=Hydrogen Fluoride
+Gregtania6Skyblock.Q144.desc=You can get Hydrogen Fluorite in Mixer.%n%n1.Mix Fluorite and Hydrogen.%n2.Mix Fluorite Dust and Sulfuric Acid.
+
+Gregtania6Skyblock.Q145.name=Hexafluorosilicic Acid
+Gregtania6Skyblock.Q145.desc=Mix Quartz(Glass, SiO2) Dust and Hydrogen Fluoride.
+
+Gregtania6Skyblock.Q146.name=Aluminium Fluoride
+Gregtania6Skyblock.Q146.desc=Mix Alumina Dust and Hexafluorosilicic Acid.
+
+Gregtania6Skyblock.Q147.name=Now you can get Aluminium
+Gregtania6Skyblock.Q147.desc=Use Carbon(Charcoal...etc, C) Dust, Alumina Ingot, Molten Aluminium Fluoride and Molten Cyrolite in Electrolyzer.
+
+Gregtania6Skyblock.Q148.name=Bath for high temperature liquid
+Gregtania6Skyblock.Q148.desc=It's better than Wooden Bath.
+
+Gregtania6Skyblock.Q149.name=Tank for keeping molten liquid in crucible
+Gregtania6Skyblock.Q149.desc=These items are used for transporting high temperature liquid.
+
+Gregtania6Skyblock.Q150.name=Cable for LV
+Gregtania6Skyblock.Q150.desc=1x Tin Cable can transport 32EU/t in 1A.%nThere is 1EU/1 block loss.%n%nOhm's law : Voltage(V)=Ampere(A)*Resistor(Ω)%n%nIf you use 2x Tin Cable(2A) and two machines which only accept 1A, you can use two machines at the same time.%n%nDon't forget that you mustn't send ampare above cables and machines ampare.%nEx1) Send MV(128V) to LV(32V) cables and machines.%nEx2) Send 2A to 1x(A) Cable.%n%nUse Wire Cutter to connect and remove.%nYou can place plates as cover, it's useful to separete completely. If you want remove, use crowbar.
+
+Gregtania6Skyblock.Q151.name=Galvanized Steel
+Gregtania6Skyblock.Q151.desc=It's best to use Smelter to get Molten Zinc, but now you use Crucible to get because Smelter needs Tungsten Crucible.%n%nClick Crucible which contains Molten Zinc with Ceramic Jur.%nThen put Ceramic Funnel on the Bath and click it with Ceramic Jur which contains Molten Zinc.
+
+Gregtania6Skyblock.Q152.name=Make LV EU from RU
+Gregtania6Skyblock.Q152.desc=Some processes must use EU.
+
+Gregtania6Skyblock.Q153.name=Electrolyzer
+Gregtania6Skyblock.Q153.desc=Separate things by using EU.
+
+Gregtania6Skyblock.Q154.name=Sodium Hydroxide
+Gregtania6Skyblock.Q154.desc=Using Salt and water in Electrolyzer is the best.
+
+Gregtania6Skyblock.Q155.name=Molten Cryolite
+Gregtania6Skyblock.Q155.desc=Mix Sodium Hydroxide Dust, Alumina Dust and Hydrogen Fluoride.
+
+Gregtania6Skyblock.Q156.name=Molten Aluminium Fluoride
+Gregtania6Skyblock.Q156.desc=Get Molten Aluminium Fluoride by using Crucible.
+
+Gregtania6Skyblock.Q157.name=Alumina
+Gregtania6Skyblock.Q157.desc=You can get by many ores but I suggest it's best to use Bauxite and Almandine Ore.
+
+Gregtania6Skyblock.Q158.name=Get plastic
+Gregtania6Skyblock.Q158.desc=Use extruder and get plastic sheet.
+
+Gregtania6Skyblock.Q159.name=Press things
+Gregtania6Skyblock.Q159.desc=You make circuit by this machine.
+
+Gregtania6Skyblock.Q160.name=Circuit Board
+Gregtania6Skyblock.Q160.desc=It's basic part of Circuit.%n%nPress Plastic Sheet and Quartz(SiO2).
+
+Gregtania6Skyblock.Q161.name=Wiring for tier1 - 2 circuit
+Gregtania6Skyblock.Q161.desc=It's used for T1,T2 Circuit.
+
+Gregtania6Skyblock.Q162.name=Circuit plate for tier1 - 2
+Gregtania6Skyblock.Q162.desc=Used for low tier circuit.
+
+Gregtania6Skyblock.Q163.name=Circuit board with parts
+Gregtania6Skyblock.Q163.desc=Press circuit board(Copper) and Circuit Part(Basic) -> T1 Circuit%nPress circuit board(Copper) and Circuit Part(Good) -> T2 Circuit
+
+Gregtania6Skyblock.Q164.name=Sulfur Dioxide
+Gregtania6Skyblock.Q164.desc=There is several ways to get Sulfur Dioxide.%n%n1. Use materials which contains Sulfur and Air in Roaster.%n2. Centrifuge Nether Air.
+
+Gregtania6Skyblock.Q165.name=Finished tier2 circuit - MV
+Gregtania6Skyblock.Q165.desc=It's used for T2 machines and many items.%nYou need Tin or Soldering Alloy to make.
+
+Gregtania6Skyblock.Q166.name=Circuit parts for tier2 - MV
+Gregtania6Skyblock.Q166.desc=You can make T1-2 Circuit with this parts.
+
+Gregtania6Skyblock.Q167.name=Get silicon
+Gregtania6Skyblock.Q167.desc=It's used for circuit chips.
+
+Gregtania6Skyblock.Q168.name=Need Helium or Argon from Air
+Gregtania6Skyblock.Q168.desc=Centrifuge Air and get Helium or Argon.
+
+Gregtania6Skyblock.Q169.name=Crystalline Silicon Plate for circuit parts
+Gregtania6Skyblock.Q169.desc=Use Silicon Dust, Helium or Argon and Molten Silicon.
+
+Gregtania6Skyblock.Q170.name=For Crystalline Plate
+Gregtania6Skyblock.Q170.desc=It's used to make Crystaline Silicon Plate.%n%nI suggest you make Tantalum Crucible before making this.
+
+Gregtania6Skyblock.Q171.name=Infuse tera power into iron
+Gregtania6Skyblock.Q171.desc=You need to infuse terra power and much mana into manasteel if you want to communicate with elves.%n%nPlace horizontal flat.%nR: Living Rock%nL: Lapis Block%nT: Terrestrial Agglomeration Plate on Living Rock%n%nRLR%nLTL%nRLR
+
+Gregtania6Skyblock.Q172.name=Terrasteel
+Gregtania6Skyblock.Q172.desc=Place manasteel, mana pearl and mana diamond on terrestrial Agglomeration Plate.%nYou need to send mana which is half of mana pool, or infusion missed and lost mana.
+
+Gregtania6Skyblock.Q173.name=Find slime chunk for mana
+Gregtania6Skyblock.Q173.desc=Do you want to use /seed to find slime chunk?%nNo, it's cheat.%n%nThere is a botania item that can find slime chunk.%nWhen you are in slime chunk, the slime in the bottle jumps.%n%nPlease note that slime can't spawn over y=40.
+
+Gregtania6Skyblock.Q174.name=Break high tier ores
+Gregtania6Skyblock.Q174.desc=It's possible you wonder how you break high tier ores.%nIt's easy to use botania lens but it needs Iridium, so if you can't process Iridium and you want to break now, this pickaxe is best.
+
+Gregtania6Skyblock.Q175.name=Alfheim trade and knowledge
+Gregtania6Skyblock.Q175.desc=It's time to trade items through alfheim portal.%nIf you want to create alfheim, you need these items.%n%nP: Natura Pyron on Mana Pool%nB: Bottom of the Portal%nL: Livingwood%nE: Elven Gateway Core%nG: Glimmering Livingwood%nA: Air%n%nHorizontal:%n%nAABBBAA%nAAAAAAA%nAAAAAAA%nPAAAAAP%n%nPortal Vertical:%n%nALGLA%nLAAAL%nGAAAG%nLAAAL%nALELA%n%nAfter setting up and input mana into mana pool, click Elven Gateway Core with wand of the forest.
+
+Gregtania6Skyblock.Q176.name=Elementium
+Gregtania6Skyblock.Q176.desc=Throw two manasteels into Alfheim portal.
+
+Gregtania6Skyblock.Q177.name=Need another ores LV.4
+Gregtania6Skyblock.Q177.desc=Now you can get Iridium.
+
+Gregtania6Skyblock.Q178.name=New material : Iridium
+Gregtania6Skyblock.Q178.desc=It's used for high tier items.
+
+Gregtania6Skyblock.Q179.name=Iridium Crucible(-3398K)
+Gregtania6Skyblock.Q179.desc=It's used for some items and processing high temperature items.
+
+Gregtania6Skyblock.Q180.name=Curcuit parts for tier1 - LV
+Gregtania6Skyblock.Q180.desc=You can make T1 circuit with this parts.
+
+Gregtania6Skyblock.Q181.name=Create mana from slime
+Gregtania6Skyblock.Q181.desc=This flower eats slime and create mana.
+
+Gregtania6Skyblock.Q182.name=Finished tier1 circuit - LV
+Gregtania6Skyblock.Q182.desc=It's used for LV machine.
+
+Gregtania6Skyblock.Q183.name=Battery box for LV
+Gregtania6Skyblock.Q183.desc=It can keep LV EU by using batteries.
+
+Gregtania6Skyblock.Q184.name=Tantalum Crucible(-4112K)
+Gregtania6Skyblock.Q184.desc=Required temperature is getting higher and higher.
+
+Gregtania6Skyblock.Q185.name=LV Alkaline battery
+Gregtania6Skyblock.Q185.desc=It can be charged 128000EU.
+
+Gregtania6Skyblock.Q186.name=Transport mana quickly
+Gregtania6Skyblock.Q186.desc=Mana spreader sends mana slowly, so I suggest you use Spark to send Mana quickly.%n%nPlace it on the origin-destination.%n%nIf you want to transport Mana between two mana pools, you need to use Augment.
+
+Gregtania6Skyblock.Q187.name=Mana transporting direction
+Gregtania6Skyblock.Q187.desc=If there is this augment on the spark, it brings mana from another mana pool which doesn't have this augment.
+
+Gregtania6Skyblock.Q188.name=Fluorite
+Gregtania6Skyblock.Q188.desc=Get Fluorite by processing Cassiterite, Tin, Huebnerite, Arsenopyrite, Apatite or Phosphorus Ore.
+
+Gregtania6Skyblock.Q189.name=Get dungeon loot items
+Gregtania6Skyblock.Q189.desc=Dungeon loot items have uncraftable items, but it's too hard to find them.%nLet's make loonium and get loot items by using mana.
+
+Gregtania6Skyblock.Q190.name=Get Rubber sapling
+Gregtania6Skyblock.Q190.desc=Processing slimeball to get rubber is little hassle, so getting rubber sapling is best.%nIt's only Loonium loot.
+
+Gregtania6Skyblock.Q191.name=Pack Rubber for Cable
+Gregtania6Skyblock.Q191.desc=You can make high voltage cables by this machine.
+
+Gregtania6Skyblock.Q192.name=Lighter
+Gregtania6Skyblock.Q192.desc=Lighter is really useful item to fire.%nIt's only Loonium loot.
+
+Gregtania6Skyblock.Q193.name=Transport mana for long distance.
+Gregtania6Skyblock.Q193.desc=If you only use spark and augment, you can't transport mana over 2 pools.%n%nThis item can put and remove augment by sending redstone signal.%nPlace this next to mana pool and manage by using red alloy wire and Hovering Hourglass.
+
+Gregtania6Skyblock.Q194.name=New material: Tantalum
+Gregtania6Skyblock.Q194.desc=It's used for Tantalum Crucible.
+
+Gregtania6Skyblock.Q195.name=LV Lead-Acid battery
+Gregtania6Skyblock.Q195.desc=It can be charged 64000EU.
+
+Gregtania6Skyblock.Q196.name=Ore Finder Wand
+Gregtania6Skyblock.Q196.desc=It's difficult to find GT6 vein, but there is a special mod in this modpack.%n(Thank GTNewHorizons Team for making almost codes! )%n%nShift-right click to the ground with this and input Ore which you want to find.%n%nIf there is the vein in 4*4*40 (x*z*y) block, this wand alerts you.%n%nIf you click ores in NEI, you can find vein information.
+
+Gregtania6Skyblock.Q197.name=Get into MV electric age
+Gregtania6Skyblock.Q197.desc=To tell the truth, there isn't certain way to evolve now.%nYou can skip many items and tier.
+
+Gregtania6Skyblock.Q198.name=Potassium Hydroxide
+Gregtania6Skyblock.Q198.desc=It's used for more efficiency battery.%nUse Electrolizer to make.
+
+Gregtania6Skyblock.Q199.name=Keep many Rubber Resin
+Gregtania6Skyblock.Q199.desc=You can keep many Rubber Resin.%n%nPut this to the hole of the rubber tree.%nYou need to click this to output.
+
+Gregtania6Skyblock.Q200.name=Process Rubber Resin
+Gregtania6Skyblock.Q200.desc=It's easy to get latex if you have rubber sapling.
+
+Gregtania6Skyblock.Q201.name=MV Electrolyzer
+Gregtania6Skyblock.Q201.desc=You can unlock some materials by MV Electrolyzer.
+
+Gregtania6Skyblock.Q202.name=Chlorine
+Gregtania6Skyblock.Q202.desc=I think using Salt is easy to get. 
+
+Gregtania6Skyblock.Q203.name=Molten Calcite
+Gregtania6Skyblock.Q203.desc=If you don't have smelter, use Crucible.%nMany stones contain Calcite such as Limestone.
+
+Gregtania6Skyblock.Q204.name=Burner Mixer
+Gregtania6Skyblock.Q204.desc=Some materials need this machine to mix.%nInput RU from bottom side and fire to this machine.
+
+Gregtania6Skyblock.Q205.name=Titanium Tetrachloride
+Gregtania6Skyblock.Q205.desc=Mix Ilmenite, Chlorine and Molten Calcite in Burner Mixer.
+
+Gregtania6Skyblock.Q206.name=Magnesium
+Gregtania6Skyblock.Q206.desc=Centrifuging Sapphire is better choice in MV machine.%nIf you get HV Electrolyzer, you can process Pyrope to get.
+
+Gregtania6Skyblock.Q207.name=Finished making Titanium
+Gregtania6Skyblock.Q207.desc=Mix Titanium Tetrachloride and Magnesium Dust in Bath.%n%nMagnesium Chloride can be used for making Plastic.
+
+Gregtania6Skyblock.Q208.name=MV Electric CO2 Laser
+Gregtania6Skyblock.Q208.desc=Need LU for Laser Engraver to work.
+
+Gregtania6Skyblock.Q209.name=MV Electric Dynamo
+Gregtania6Skyblock.Q209.desc=You can get MV EU power by RU.
+
+Gregtania6Skyblock.Q210.name=MV Electric Heater
+Gregtania6Skyblock.Q210.desc=You can get HU by EU power.
+
+Gregtania6Skyblock.Q211.name=MV Electric Engine
+Gregtania6Skyblock.Q211.desc=You can get KU by EU power.
+
+Gregtania6Skyblock.Q212.name=MV Electric Motor
+Gregtania6Skyblock.Q212.desc=You can get RU by EU power.
+
+Gregtania6Skyblock.Q213.name=MV Electromagnet
+Gregtania6Skyblock.Q213.desc=You need MU for Polarizer to work.
+
+Gregtania6Skyblock.Q214.name=Don't waste electric power
+Gregtania6Skyblock.Q214.desc=GT6 machines use electric power in spite of being not working.%nYou can use this module not to waste electric power.
+
+Gregtania6Skyblock.Q215.name=MV Polarizer
+Gregtania6Skyblock.Q215.desc=You can get magnetic materials.
+
+Gregtania6Skyblock.Q216.name=Clay is the best material to get Alumina
+Gregtania6Skyblock.Q216.desc=Process clay dust in MV Electrolyzer.
+
+Gregtania6Skyblock.Q217.name=Get into HV electric age
+Gregtania6Skyblock.Q217.desc=Have you skipped MV quests?%nNo problem, HV machines are more useful.%n%nAfter making Tungsten Crucible, you can make Smelter which can be used as Crucible.%nI suggest you make this before making Titanium.
+
+Gregtania6Skyblock.Q218.name=New material : Tungsten
+Gregtania6Skyblock.Q218.desc=Tungsten = 1%n3695K
+
+Gregtania6Skyblock.Q219.name=HV Electric Motor
+Gregtania6Skyblock.Q219.desc=You can get RU by EU power.
+
+Gregtania6Skyblock.Q220.name=HV Electric Dynamo
+Gregtania6Skyblock.Q220.desc=You can get HV EU power by RU.
+
+Gregtania6Skyblock.Q221.name=HV Electric Heater
+Gregtania6Skyblock.Q221.desc=You can get HU by EU power.
+
+Gregtania6Skyblock.Q222.name=HV Electric Engine
+Gregtania6Skyblock.Q222.desc=You can get KU by EU power.
+
+Gregtania6Skyblock.Q223.name=MV Laser Engraver
+Gregtania6Skyblock.Q223.desc=It's used for making Circuit parts.
+
+Gregtania6Skyblock.Q224.name=Circuit Wiring for Tier3-4
+Gregtania6Skyblock.Q224.desc=It's used for Tier3-4 Circuit.
+
+Gregtania6Skyblock.Q225.name=Circuit plate for tier3-4
+Gregtania6Skyblock.Q225.desc=Press them.
+
+Gregtania6Skyblock.Q226.name=Tier3 Circuit Board - HV
+Gregtania6Skyblock.Q226.desc=Press them again.
+
+Gregtania6Skyblock.Q227.name=Circuit parts for Tier3 - HV
+Gregtania6Skyblock.Q227.desc=Press them too.
+
+Gregtania6Skyblock.Q228.name=Finished making Tier3 Circuit - HV
+Gregtania6Skyblock.Q228.desc=You need to use soldering alloy to make.
+
+Gregtania6Skyblock.Q229.name=Tungsten resources
+Gregtania6Skyblock.Q229.desc=You can get Tungsten by Scheelite, Wolframite, Ferberite, Huebnerite and Tungstate Ore.
+
+Gregtania6Skyblock.Q230.name=Hydrochloric Acid
+Gregtania6Skyblock.Q230.desc=Mixer recipe is good to make.%nI suggest the recipe which uses Chlorine and Water.
+
+Gregtania6Skyblock.Q231.name=Tungstic Acid
+Gregtania6Skyblock.Q231.desc=Use them in Bath.
+
+Gregtania6Skyblock.Q232.name=Tungsten Trioxide
+Gregtania6Skyblock.Q232.desc=Input Tungstic Acid in Dryer.
+
+Gregtania6Skyblock.Q233.name=Finished making Tungsten
+Gregtania6Skyblock.Q233.desc=Mix Tungsten Trioxide and Hydrogen in Mixer.
+
+Gregtania6Skyblock.Q234.name=Crystalline Redstone Alloy for high tier part
+Gregtania6Skyblock.Q234.desc=Mix Redstone Alloy Dust, Molten Redstone Alloy and gas which is Helium, Neon or Argon in Crystallisation Crucible.
+
+Gregtania6Skyblock.Q235.name=Crystalline redstone alloy plate
+Gregtania6Skyblock.Q235.desc=It's used for high tier parts.
+
+Gregtania6Skyblock.Q236.name=Circuit parts for tier4 - EV
+Gregtania6Skyblock.Q236.desc=Press them.
+
+Gregtania6Skyblock.Q237.name=Circuit board for tier4 - EV
+Gregtania6Skyblock.Q237.desc=Press them too.
+
+Gregtania6Skyblock.Q238.name=Finished making Tier4 Circuit - EV
+Gregtania6Skyblock.Q238.desc=You have to use Soldering Alloy to make.
+
+Gregtania6Skyblock.Q239.name=Get into EV electric age
+Gregtania6Skyblock.Q239.desc=Prepare GT6 End Contents.
+
+Gregtania6Skyblock.Q240.name=Tungsten Crucible (~4618K)
+Gregtania6Skyblock.Q240.desc=It can keep 4618K but it'll be used for Smelter.
+
+Gregtania6Skyblock.Q241.name=Lens for laser
+Gregtania6Skyblock.Q241.desc=It's used for Laser Engraver.
+
+Gregtania6Skyblock.Q242.name=Circuit Wiring for Tier5-6
+Gregtania6Skyblock.Q242.desc=It's used for tier5-6 circuit.
+
+Gregtania6Skyblock.Q243.name=Circuit plate for tier5-6
+Gregtania6Skyblock.Q243.desc=Press them.
+
+Gregtania6Skyblock.Q244.name=Circuit parts for Tier5 - IV
+Gregtania6Skyblock.Q244.desc=Press them too.
+
+Gregtania6Skyblock.Q245.name=Circuit board for tier5 - IV
+Gregtania6Skyblock.Q245.desc=Press them again.
+
+Gregtania6Skyblock.Q246.name=Finished making Tier5 circuit - IV
+Gregtania6Skyblock.Q246.desc=You can do without my word.
+
+Gregtania6Skyblock.Q247.name=EV Electric Engine
+Gregtania6Skyblock.Q247.desc=You can get KU by EU power.
+
+Gregtania6Skyblock.Q248.name=EV Electric Motor
+Gregtania6Skyblock.Q248.desc=You can get RU by EU power.
+
+Gregtania6Skyblock.Q249.name=New material : Neodymium
+Gregtania6Skyblock.Q249.desc=Process Bastnasite or Monazite Ore to get.
+
+Gregtania6Skyblock.Q250.name=EV Electric Dynamo
+Gregtania6Skyblock.Q250.desc=You can get EU power by RU.
+
+Gregtania6Skyblock.Q251.name=Don't need Crucible anymore
+Gregtania6Skyblock.Q251.desc=You can get formed materials which has been made in Crucible.%nPlace Mold where Smelter outputs.%n%nIt's possible to mix molten materials in Mixer.%n%nBut some materials need Crucible such as Steel.
+
+Gregtania6Skyblock.Q252.name=Magnetic things
+Gregtania6Skyblock.Q252.desc=Some materials need Polarizer to be magnetic.
+
+Gregtania6Skyblock.Q253.name=Gregtech6 End Contents
+Gregtania6Skyblock.Q253.desc=You mastered almost Gregtech6.%nNow I'll introduce Gregtech6 end contents.%n%nThere isn't IV batteries so you need to make EV batteries.%nI introduce some IV generators but it's better to convert EV.%n%nPlease note that Gregtech6 is just developping and it's not complete. %nMr.Gregorius said told me thet he plans to add new large multiblock machines and voltage machines.%nIn his forum, everyone discuss about Gregtech6 end contents.%n%nDo you think it's end of Gregtech6 if you finished this modpack quest? No, there are many another machines and future in Gregtech6.
+
+Gregtania6Skyblock.Q254.name=Matter machines
+Gregtania6Skyblock.Q254.desc=Matter machine can duplicate materials by EU and matters.%nBut it needs a lot of costs.%n%nLet's get the GT6 end content!
+
+Gregtania6Skyblock.Q255.name=New material : Kanthal
+Gregtania6Skyblock.Q255.desc=Iron : Aluminium : Chrome = 1 : 1 : 1%n2011K
+
+Gregtania6Skyblock.Q256.name=Circuit parts for tier6 - Max
+Gregtania6Skyblock.Q256.desc=I say nothing, you know.
+
+Gregtania6Skyblock.Q257.name=Finished making tier6 circuit - Max
+Gregtania6Skyblock.Q257.desc=I say nothing, you know.
+
+Gregtania6Skyblock.Q258.name=Helium-Neon
+Gregtania6Skyblock.Q258.desc=Centrifuge Air and mix Helium and Neon.
+
+Gregtania6Skyblock.Q259.name=Helium-Neon Laser Emitter
+Gregtania6Skyblock.Q259.desc=It's used for high tier items.
+
+Gregtania6Skyblock.Q260.name=Crystal Processor Socket
+Gregtania6Skyblock.Q260.desc=It's used for making all Crystal Processors.
+
+Gregtania6Skyblock.Q261.name=IV Compact Force Field Emitter
+Gregtania6Skyblock.Q261.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q262.name=IV Compact Signal Emitter
+Gregtania6Skyblock.Q262.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q263.name=New Material : Osmiridium
+Gregtania6Skyblock.Q263.desc=Osmium : Iridium = 1 : 1%n3012K
+
+Gregtania6Skyblock.Q264.name=IV Compact Sensor
+Gregtania6Skyblock.Q264.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q265.name=Get QU power
+Gregtania6Skyblock.Q265.desc=You need QU to work matter machines.
+
+Gregtania6Skyblock.Q266.name=About Bedrock Mining
+Gregtania6Skyblock.Q266.desc=You can get bedrock ores by this multiblock machine, but machine cost is terrible.%n%nDon't you think this is a end content?
+
+Gregtania6Skyblock.Q267.name=Crystal Processor (Sapphire)
+Gregtania6Skyblock.Q267.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q268.name=Laser Engraver T3
+Gregtania6Skyblock.Q268.desc=It's used for making Crystal Circuit.
+
+Gregtania6Skyblock.Q269.name=Lens for Crystal Circuit
+Gregtania6Skyblock.Q269.desc=You need this to make all Crystal Circuit.
+
+Gregtania6Skyblock.Q270.name=Crystal Processor (Ruby)
+Gregtania6Skyblock.Q270.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q271.name=Crystal Processor (Diamond)
+Gregtania6Skyblock.Q271.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q272.name=Crystal Processor (Emerald)
+Gregtania6Skyblock.Q272.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q273.name=Scan things
+Gregtania6Skyblock.Q273.desc=You need to get material data.%nYou need USB to scan.
+
+Gregtania6Skyblock.Q274.name=HV Compact Force Field Emitter
+Gregtania6Skyblock.Q274.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q275.name=HV Compact Signal Emitter
+Gregtania6Skyblock.Q275.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q276.name=HV Compact Sensor
+Gregtania6Skyblock.Q276.desc=It's used for high tier machines.
+
+Gregtania6Skyblock.Q277.name=Get materials from matter
+Gregtania6Skyblock.Q277.desc=You can get materials from matter.%nInput USB that is scanned and matter.
+
+Gregtania6Skyblock.Q278.name=Create matter
+Gregtania6Skyblock.Q278.desc=You can get charged and neutral matter from any materials.%n%nIf ionization energy is low, you can get more matter.%nIt means if group is low and period is high in the periodio table, you can get more matter.
+
+Gregtania6Skyblock.Q279.name=Matter age
+Gregtania6Skyblock.Q279.desc=You can get materials from matter.
+
+Gregtania6Skyblock.Q280.name=New material : Titanium
+Gregtania6Skyblock.Q280.desc=Titanium = 1%n1941K
+
+Gregtania6Skyblock.Q281.name=Bedrock Mining Drill Controller
+Gregtania6Skyblock.Q281.desc=Place them on the bedrock. 3*4*3 (W*H*D)%n%nC: Controller%nD: Titanium Wall%nH: Drill Head%nB: Bedrock%n%nDDD%nDCD%nDDD%n%nDDD%nDDD%nDDD%n%nDDD%nDDD%nDDD%n%nDDD%nDDD%nDDD%n%nHHH%nHHH%nHHH%n%nBBB
+
+Gregtania6Skyblock.Q282.name=New material : Osmium
+Gregtania6Skyblock.Q282.desc=Process Iridium Ore to get.%n%nOsmium = 1%n3306K
+
+Gregtania6Skyblock.Q283.name=Wither Skelton Skull
+Gregtania6Skyblock.Q283.desc=It's too hard to get, so I add a recipe to get this.%n%nIf you drink mana in a bottle, it happens several status to you.%nYou can get Player Head and it can be converted to Wither Skull in mana pool.
+
+Gregtania6Skyblock.Q284.name=Start mining
+Gregtania6Skyblock.Q284.desc=You need Lubricant and RU(1024-4096) to work.
+
+Gregtania6Skyblock.Q285.name=IV Electric Heater
+Gregtania6Skyblock.Q285.desc=You can get HU power by EU.
+
+Gregtania6Skyblock.Q286.name=IV Electric Dynamo
+Gregtania6Skyblock.Q286.desc=You can get IV EU power by RU.
+
+Gregtania6Skyblock.Q287.name=IV Electric Motor
+Gregtania6Skyblock.Q287.desc=You can get RU power by EU.
+
+Gregtania6Skyblock.Q288.name=IV Electric Engine
+Gregtania6Skyblock.Q288.desc=You can get KU power by EU.
+
+Gregtania6Skyblock.Q289.name=Ilmenite
+Gregtania6Skyblock.Q289.desc=You can get Titanium by this.%nYou can get by Hematite and Bauxite.
+
+Gregtania6Skyblock.Q290.name=New material : Constantan
+Gregtania6Skyblock.Q290.desc=Copper : Nickel = 1 : 1%n1542K
+
+Gregtania6Skyblock.Q291.name=Gather wires
+Gregtania6Skyblock.Q291.desc=If you need 4x-16x wire, you need this machine.
+
+Gregtania6Skyblock.Q292.name=Selector Tag
+Gregtania6Skyblock.Q292.desc=Need this for some machines.%nUse screwdriver crafting and change number.
+
+Gregtania6Skyblock.Q293.name=Empty Gas Laser Emitter
+Gregtania6Skyblock.Q293.desc=It's used for some items.
+
+Gregtania6Skyblock.Q294.name=Carbon Dioxide Laser Emitter
+Gregtania6Skyblock.Q294.desc=Input Carbon Dioxide into Empty Gas Laser Emitter.
+
+Gregtania6Skyblock.Q295.name=Carbon Dioxide
+Gregtania6Skyblock.Q295.desc=There are several ways to get.%n%n1. Centrifuge Air%n2. Process C in Roaster
+
+Gregtania6Skyblock.Q296.name=MV Canning Machine
+Gregtania6Skyblock.Q296.desc=You can input materials into container.
+
+Gregtania6Skyblock.Q297.name=MV Compact Electric Motor
+Gregtania6Skyblock.Q297.desc=It's used for some items.
+
+Gregtania6Skyblock.Q298.name=MV Conpact Electric Pump
+Gregtania6Skyblock.Q298.desc=It's used for some items.%n%nYou can output fluid from block by pasting this.%nUse Screwdriver to active.
+
+Gregtania6Skyblock.Q299.name=New material : Soldering Alloy
+Gregtania6Skyblock.Q299.desc=Tin : Antimony = 9 : 1%n544K%n%nIt's used for making high tier Circuit.
+
+Gregtania6Skyblock.Q300.name=New material : Annealed Copper
+Gregtania6Skyblock.Q300.desc=Copper = 1%n2800K
+
+Gregtania6Skyblock.Q301.name=New material : Red Alloy
+Gregtania6Skyblock.Q301.desc=Copper : Redstone = 1 : 4%n1400K
+
+Gregtania6Skyblock.Q302.name=New material : Redstone Alloy
+Gregtania6Skyblock.Q302.desc=Silicon : Redstone = 1 : 1%n1093K
+
+Gregtania6Skyblock.Q303.name=New material : Chromium
+Gregtania6Skyblock.Q303.desc=Process Uvarovite or Ruby Ore to get.
+
+Gregtania6Skyblock.Q304.name=New material : Nichrome
+Gregtania6Skyblock.Q304.desc=Nickel : Chrome = 4 : 1%n1818K
+
+Gregtania6Skyblock.Q305.name=EV Electric Heater
+Gregtania6Skyblock.Q305.desc=You can get HU by EU power.
+
+Gregtania6Skyblock.Q306.name=Magnetic Neodymium
+Gregtania6Skyblock.Q306.desc=Need Polarizer to make.
+
+Gregtania6Skyblock.Q307.name=Circuit board for tier6 - Max
+Gregtania6Skyblock.Q307.desc=I say nothing, you know.
+
+Gregtania6Skyblock.Q308.name=Infinity evolved forever
+Gregtania6Skyblock.Q308.desc=You cleared this modpack, congratulations!
+
+Gregtania6Skyblock.Q309.name=IV Compact Electric Motor
+Gregtania6Skyblock.Q309.desc=It's used for IV items.
+
+Gregtania6Skyblock.Q310.name=IV Compact Electric Conveyor
+Gregtania6Skyblock.Q310.desc=It's used for IV items.%n%nYou can output items from where you place this. Use screwdriver to active.
+
+Gregtania6Skyblock.Q311.name=Defeat Wither
+Gregtania6Skyblock.Q311.desc=It's very easy to kill. It's not hardcore wither.
+
+Gregtania6Skyblock.Q312.name=Highest tier Burning Box
+Gregtania6Skyblock.Q312.desc=Burning time is same with normal Burning Box, and you can get 4x HU.
+
+Gregtania6Skyblock.Q313.name=Large Stainless steel Boiler
+Gregtania6Skyblock.Q313.desc=It can create more steams from huge HU power.%n%nD: Dense Wall%nB: Boiler%nH: Heat Acceptor%nA: Air%n%nDDD%nDDD%nDDD%n%nDDD%nDAD%nDDD%n%nDDD%nDDB%nDDD%n%nHHH%nHHH%nHHH
+
+Gregtania6Skyblock.Q314.name=Large Titanium Boiler
+Gregtania6Skyblock.Q314.desc=It can create more steams from huge HU power.%n%nIf you don't know how to build, please see Large Stainless steel Boiler quest.
+
+Gregtania6Skyblock.Q315.name=Large Magnalium Steam Turbine
+Gregtania6Skyblock.Q315.desc=It can create more RU from much steams.%n%nD: Dense Wall%nM: Main Housing%n%nDDDD%nDDDD%nDDDD%n%nDDDD%nDDDM%nDDDD%n%nDDDD%nDDDD%nDDDD
+
+Gregtania6Skyblock.Q316.name=Large Titanium Dynamo
+Gregtania6Skyblock.Q316.desc=3*3*4(W*H*D)%nInput(Main Housing): 4096-16384RU(8192RU)%nOutput(Back): 3072-12288EU(6144EU)%n%nD: Dense Wall%nL: Large Copper Coil%nM: Main Housing%n%nDLLD%nDLLD%nDLLD%n%nDLLD%nDLLM%nDLLD%n%nDLLD%nDLLD%nDLLD
+
+Gregtania6Skyblock.Q317.name=New material: Magnalium
+Gregtania6Skyblock.Q317.desc=Mg : Al = 1 : 2%n929K
+
+Gregtania6Skyblock.Q318.name=IV Electric CO2 Laser
+Gregtania6Skyblock.Q318.desc=You need IV CO2 Laser to work matter machines.
+
+Gregtania6Skyblock.Q319.name=Check IV RU power
+Gregtania6Skyblock.Q319.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q320.name=USB3.0 for scanning things
+Gregtania6Skyblock.Q320.desc=You need this to scan.
+
+Gregtania6Skyblock.Q321.name=Check IV HU power
+Gregtania6Skyblock.Q321.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q322.name=Check IV power
+Gregtania6Skyblock.Q322.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q323.name=Check EV RU power
+Gregtania6Skyblock.Q323.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q324.name=Let's make highest tier circuit
+Gregtania6Skyblock.Q324.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q325.name=Check IV EU power
+Gregtania6Skyblock.Q325.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q326.name=Convert LV into MV
+Gregtania6Skyblock.Q326.desc=You can convert 4A LV into 1A MV through this machine.%n%nOutput MV from the side where there are four circles.%nInput LV at another sides.(One circle)
+
+Gregtania6Skyblock.Q327.name=Convert MV into HV
+Gregtania6Skyblock.Q327.desc=You can convert 4A MV into 1A HV through this machine.
+
+Gregtania6Skyblock.Q328.name=Battery box for MV
+Gregtania6Skyblock.Q328.desc=It can keep MV EU by using batteries.
+
+Gregtania6Skyblock.Q329.name=Check HV EU power
+Gregtania6Skyblock.Q329.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q330.name=Check EV EU power
+Gregtania6Skyblock.Q330.desc=It's just a conditional branch quest.
+
+Gregtania6Skyblock.Q331.name=Convert HV into EV
+Gregtania6Skyblock.Q331.desc=You can convert 4A HV into 1A EV through this machine.
+
+Gregtania6Skyblock.Q332.name=Battery box for HV
+Gregtania6Skyblock.Q332.desc=It can keep HV EU power by using batteries.
+
+Gregtania6Skyblock.Q333.name=Convert EV into IV
+Gregtania6Skyblock.Q333.desc=You can convert 4A EV into 1A IV through this machine.
+
+Gregtania6Skyblock.Q334.name=Battery box for EV
+Gregtania6Skyblock.Q334.desc=It can keep EV EU power by using batteries.
+
+Gregtania6Skyblock.Q335.name=Get little QU power
+Gregtania6Skyblock.Q335.desc=There isn't T5 Scanner, I can’t help it.
+
+Gregtania6Skyblock.Q336.name=EV Electric Laser Emitter
+Gregtania6Skyblock.Q336.desc=It's used for Scanner, I don't know why there isn't T5.
+
+Gregtania6Skyblock.Q337.name=Break Ores by Mana
+Gregtania6Skyblock.Q337.desc=It can break low tier ores.%nNeed mana and pulse mana spreader to work.
+
+Gregtania6Skyblock.Q338.name=Hovering Hourglass
+Gregtania6Skyblock.Q338.desc=It can output redstone signal regularly.%nYou can change time by changing the input item.
+
+Gregtania6Skyblock.Q339.name=Automatic ore generation processing
+Gregtania6Skyblock.Q339.desc=This is an example idea that can do automatic ore processing.%nTry to find own way.%n%nS: Redstone%nT: Redstone Torch%nC: Redstone Conperator(Mode->Conperator)%nR: Redstone Repeater(Number->Delay)%nH: Hovering Hourglass(4 Sand)%nL: Lever%nP: Piston%nM: Mana pool%nU: Pulse Mana Spreader(&Lens)%nD: Mana Spreader%nA: Air%nB: Block%nO: Obsidian%nW: Water%nG: Generate Stone(Ore) Air   Top->Lava%nH: Air   Bottom->Hopper and Item Pipe%n%nL      S      T(←)   B      A      A%nA      S      A     C(↑)    A      A%nA    R(0↓)  A     M       A      A%nS    R(4←)  H    P(↓)     B     B%nR(4↓)  A    B      G     A     W%nS   R(4→)  U(→) H      M      B%nA     A       M     A    D(←)  A%nA     A       A     O     A      A
+
+Gregtania6Skyblock.Q340.name=Break high tier ores by mana.
+Gregtania6Skyblock.Q340.desc=Now you can break high tier ores.
+
+Gregtania6Skyblock.Q341.name=Pulse Mana Spreader
+Gregtania6Skyblock.Q341.desc=It's used to use Lens.
+
+Gregtania6Skyblock.Q342.name=Biological fuel
+Gregtania6Skyblock.Q342.desc=Bio Ethanol is really good fuel in gregtech6.%nYou can get them automatically and infinity.%n%nUse bore lens and hovering hourglass to break melons automatically.
+
+Gregtania6Skyblock.Q343.name=Collect items
+Gregtania6Skyblock.Q343.desc=Pick up items near this flower and output to bottom block automatically.
+
+Gregtania6Skyblock.Q344.name=Push block
+Gregtania6Skyblock.Q344.desc=It's used for automatic processing.
+
+Gregtania6Skyblock.Q345.name=Extinguish Burning Box fire
+Gregtania6Skyblock.Q345.desc=It's useful to extinguish fire by redstone.
+
+Gregtania6Skyblock.Q346.name=Automatic crafting
+Gregtania6Skyblock.Q346.desc=Botania is industrial mod, author said.%n%nIt doesn't need patterns to work if it's 9*9 recipe.%n%nHere is an example that can make Melon.%n%nH: Hopper%nC: Crafter%nA: Air%n%nH%nC%nA%nH%n%nYou can get Dream Wood by elven trade.
+
+Gregtania6Skyblock.Q347.name=Melon Juice
+Gregtania6Skyblock.Q347.desc=I like a melon juice. How about you?
+
+Gregtania6Skyblock.Q348.name=Fermenter
+Gregtania6Skyblock.Q348.desc=Input Melon Juice and melon, get Biomass.
+
+Gregtania6Skyblock.Q349.name=Distillery
+Gregtania6Skyblock.Q349.desc=Now you can get Bio Ethanol.
+
+Gregtania6Skyblock.Q350.name=Bio Ethanol
+Gregtania6Skyblock.Q350.desc=It's used as Creosote, and burning time is longer.
+
+Gregtania6Skyblock.Q351.name=Transport several fluid at same time
+Gregtania6Skyblock.Q351.desc=You can transport several fluids at same time and place.
+
+Gregtania6Skyblock.Q352.name=Void surplus water
+Gregtania6Skyblock.Q352.desc=It's possible that machines stop working because of water, so it needs to void.%n%nSeparate Input and Output of water tank, then place this void bin at Input side. (Of course bins input priority is low.)
+
+Gregtania6Skyblock.Q353.name=Red alloy wire
+Gregtania6Skyblock.Q353.desc=It can transport redstone signal by wire.
+
+Gregtania6Skyblock.Q354.name=Automatic Crucible processing
+Gregtania6Skyblock.Q354.desc=It's time to do automatic crucible processing.%n%nClick thermomater with screwdriver.%nThermomater outputs redstone signal if temperature is over the temperature you set.%n%nClick Mold with Monkey wrench to input molten liquid by redstone.%n%nOutput items by hopper.%n%nI suggest to use Liquid Burning box because it can stop fire quickly.%n%nIf you want to make 1:3 material, you need 4 Dropper at least.
+
+Gregtania6Skyblock.Q355.name=Drop materials into Crucible
+Gregtania6Skyblock.Q355.desc=It's first step to do automatic crucible processing.
+
+#Gregtania6Skyblock.Q356.name=Nether Quartz Vein
+#Gregtania6Skyblock.Q356.desc=It's for Ore Finder Wand.
+
+#Gregtania6Skyblock.Q357.name=Copper Vein
+#Gregtania6Skyblock.Q357.desc=It's for Ore Finder Wand.
+
+#Gregtania6Skyblock.Q358.name=Nickel Vein
+#Gregtania6Skyblock.Q358.desc=It's for Ore Finder Wand.
+
+#Gregtania6Skyblock.Q359.name=Redstone Vein
+#Gregtania6Skyblock.Q359.desc=It's for Ore Finder Wand.
+
+#Gregtania6Skyblock.Q360.name=Titanium Vein
+#Gregtania6Skyblock.Q360.desc=It's for Ore Finder Wand.
+
+#Gregtania6Skyblock.Q361.name=Sulfer Vein
+#Gregtania6Skyblock.Q361.desc=It's for Ore Finder Wand.
+
+#Gregtania6Skyblock.Q362.name=Limonite Vein
+#Gregtania6Skyblock.Q362.desc=It's for Ore Finder Wand.
+
+#Gregtania6Skyblock.Q363.name=Try to find Gregtech Vein
+#Gregtania6Skyblock.Q363.desc=You can exchange netherrack ores for Ore Finder Wand.%n%nIf you click ores in NEI, you can find vein information.
+
+Gregtania6Skyblock.Q364.name=Craft pattern
+Gregtania6Skyblock.Q364.desc=It's used for auto crafting.
+
+Gregtania6Skyblock.Q365.name=Grass block
+Gregtania6Skyblock.Q365.desc=Head off the situation that you break all grass block...
+
+Gregtania6Skyblock.Q366.name=Load server quests
+Gregtania6Skyblock.Q366.desc=In normal situation you don't use this command.
+
+Gregtania6Skyblock.Q367.name=Get Propylene and Ethylene
+Gregtania6Skyblock.Q367.desc=These gases are used for making Plastic.
+
+Gregtania6Skyblock.Q368.name=Separate materials
+Gregtania6Skyblock.Q368.desc=This machine is used for separating Impure Bedrock
+
+Gregtania6Skyblock.Q369.name=Steam Cracker
+Gregtania6Skyblock.Q369.desc=Propane/Butane + Steam -> Propylene + Ethylene
+
+Gregtania6Skyblock.Q370.name=Catalytic Cracker
+Gregtania6Skyblock.Q370.desc=Fuel Oil/Petrol + Hydrogen + Platinum -> Propylene + Ethylene
+
+Gregtania6Skyblock.Q371.name=Products from Oil
+Gregtania6Skyblock.Q371.desc=There are many products from processing oil.%n%n1st(Bottom): Items(Tiny Piles)%n2nd: Lubricant%n3rd: Fuel Oil%n4th: Diesel%n5th: Kerosine%n6th: Petrol%n7th: Butane%n8th(Top): Propane
+
+Gregtania6Skyblock.Q372.name=New material: Tungsten Steel
+Gregtania6Skyblock.Q372.desc=Tungsten : Steel = 1 : 1%n2870K
+
+Gregtania6Skyblock.Q373.name=Get Adamantium
+Gregtania6Skyblock.Q373.desc=Process Impure Bedrock to get Adamantium.
+
+Gregtania6Skyblock.Q374.name=The way to The End
+Gregtania6Skyblock.Q374.desc=In this world, there is no stronghold.%nHowever, you can make End portal.%n%nIf you just only want to enjoy GT6, you don't have to play.%nYou have already mastered GT6!
+
+Gregtania6Skyblock.Q375.name=Prepare summoning Gaia
+Gregtania6Skyblock.Q375.desc=You need these items.
+
+Gregtania6Skyblock.Q376.name=Ritual of Gaia
+Gregtania6Skyblock.Q376.desc=Let's defeat Guardian of Gaia.%n%nHave you made the battle field?%nThe ground of the battle field must not be Air.%nWater is useful to prevent teleporting.%n%nIf you finish preparing, click beacon with Terrasteel.
+
+Gregtania6Skyblock.Q377.name=Getting into the End
+Gregtania6Skyblock.Q377.desc=Now you can get into the End!%nHowever, Ender Dragon is not vanilla one, but Hardcore Ender Expansion one.%nDon't get into the End without preparing!%n%nIf you build up End Portal, you need place them from the center of End Portal, inside of End Portal circle.
+
+Gregtania6Skyblock.Q378.name=The End...?
+Gregtania6Skyblock.Q378.desc=That dragon breaks End Stone, thunder hit to you, caught blindness, and many Enderman attack to you.%n%nDo your best. Never give up!
+
+Gregtania6Skyblock.Q379.name=Final battle
+Gregtania6Skyblock.Q379.desc=Defeat cheat dragon. There is this dragon where it's 10000 block far away.
+
+Gregtania6Skyblock.Q380.name=Draconic Reactor parts - 2
+Gregtania6Skyblock.Q380.desc=It's used for draconic reactor.
+
+Gregtania6Skyblock.Q381.name=Get Draconium power
+Gregtania6Skyblock.Q381.desc=There are Draconium Ore in the End, and process Draconium Dust in Extruder.
+
+Gregtania6Skyblock.Q382.name=Draconic Core
+Gregtania6Skyblock.Q382.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q383.name=Wyvern Energy Core
+Gregtania6Skyblock.Q383.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q384.name=Wyvern Core
+Gregtania6Skyblock.Q384.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q385.name=Wyvern Helm
+Gregtania6Skyblock.Q385.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q386.name=Wyvern Chestplate
+Gregtania6Skyblock.Q386.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q387.name=Wyvern Leggings
+Gregtania6Skyblock.Q387.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q388.name=Wyvern Boots
+Gregtania6Skyblock.Q388.desc=It's used for crafting. Oh sorry I missed it's great equipment.
+
+Gregtania6Skyblock.Q389.name=Infuse RF power
+Gregtania6Skyblock.Q389.desc=You can infuse RF to draconic quipment.
+
+Gregtania6Skyblock.Q390.name=Awaked Draconium Block
+Gregtania6Skyblock.Q390.desc=Place 4 Charged Draconium Block. Next, throw Dragon Heart above them. Then, Place TNT and fire it.
+
+Gregtania6Skyblock.Q391.name=Awaked Core
+Gregtania6Skyblock.Q391.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q392.name=Draconic Energy Core
+Gregtania6Skyblock.Q392.desc=It's used for crafting.
+
+Gregtania6Skyblock.Q393.name=Draconic Helm
+Gregtania6Skyblock.Q393.desc=You can add Night Vision effect by setting(Default key: C).
+
+Gregtania6Skyblock.Q394.name=Draconic Chestplate
+Gregtania6Skyblock.Q394.desc=You can fly! Flight setting can be changed by setting(Default key: C).
+
+Gregtania6Skyblock.Q395.name=Draconic Leggings
+Gregtania6Skyblock.Q395.desc=You can change move speed by setting(Default key: C).
+
+Gregtania6Skyblock.Q396.name=Draconic Boots
+Gregtania6Skyblock.Q396.desc=You can change jump height by setting(Default key: C).
+
+Gregtania6Skyblock.Q397.name=Wyvern Flux Capacitor
+Gregtania6Skyblock.Q397.desc=It's portable capacitor.
+
+Gregtania6Skyblock.Q398.name=Draconic Flux Capacitor
+Gregtania6Skyblock.Q398.desc=It's portable capacitor.
+
+Gregtania6Skyblock.Q399.name=Upgrade Modifier
+Gregtania6Skyblock.Q399.desc=You can upgrade Draconic equipments.
+
+Gregtania6Skyblock.Q400.name=Draconic Reactor parts - 3
+Gregtania6Skyblock.Q400.desc=It's used for draconic reactor.
+
+Gregtania6Skyblock.Q401.name=Draconic Reactor parts - 1
+Gregtania6Skyblock.Q401.desc=It's used for draconic reactor.
+
+Gregtania6Skyblock.Q402.name=Let's build up Draconic Reactor
+Gregtania6Skyblock.Q402.desc=1. Build up.%n2. Click Reactor Stabilizer and open GUI.%n3. Input Awaked Draconium Block and turn on.%n4. Input RF to Reactor Energy Injector.%n5. Let's explode!%n%nHow to build: %n1. Place Reactor Energy Injector%n%n2. Place 2 temp blocks above it, and put Draconic Reactor Core above it. Then break 2 temp blocks.%n%n3. Place 4 temp blocks from Draconic Core to North, South, East, West, and place Reactor Stabilizer to it. Then break each 4 temp blocks. Don't forget that Reactor Stabilizer face to Draconic Reactor Core.
+
+Gregtania6Skyblock.Q403.name=Advanced Warp item
+Gregtania6Skyblock.Q403.desc=Shift-right click to open GUI. You can set many locations, but you need Ender Pearls as fuel.
+
+Gregtania6Skyblock.Q404.name=Warp Item
+Gregtania6Skyblock.Q404.desc=Shift-right click to save location.%nIf you right-click with this, you can warp.%n%nDon't forget you can only save 1 location.
+
+Gregtania6Skyblock.Q405.name=Nanotechnology
+Gregtania6Skyblock.Q405.desc=This machine is used for making Graphene, but in this modpack, you use this machine for making End Portal.%n%nGases can be made by processing Ender Air in Centrifuge.
+
+Gregtania6Skyblock.Q406.name=New material: Tungsten Carbide
+Gregtania6Skyblock.Q406.desc=Tungsten : Carbon = 1 : 1%n3695K
+
+Gregtania6Skyblock.Q407.name=Strong Extruder
+Gregtania6Skyblock.Q407.desc=Low heat extruder can't process many materials, so make advanced one.
+
+Gregtania6Skyblock.Q408.name=Extruder Shape
+Gregtania6Skyblock.Q408.desc=Extruder needs shape to process.
+
+Gregtania6Skyblock.Q409.name=Convert EU to RF
+Gregtania6Skyblock.Q409.desc=Need RF for your equipments.
+
+Gregtania6Skyblock.Q410.name=Ender Air
+Gregtania6Skyblock.Q410.desc=You need Ender Air before going to the End.%n%nMelt Ender Pearl and canning it with glass bottle.%nThen use canning machine again and get Ender Air.
+
+Gregtania6Skyblock.Q411.name=Charge RF to Draconium Block
+Gregtania6Skyblock.Q411.desc=Put Draconium Block into Energy Infuser and charge 100,000,000RF.
+
+Gregtania6Skyblock.Q412.name=Summon Ender Dragon
+Gregtania6Skyblock.Q412.desc=You need Dragon Heart to get Draconium equipments.%nThen, let's summon Ender Dragon again!%n%nPlease see FTB Wiki, it's difficult to explain.%nhttps://ftbwiki.org/Ritual_of_Draconic_Resurrection
+
+Gregtania6Skyblock.Q413.name=Bucket
+Gregtania6Skyblock.Q413.desc=You can take high temperature liquid.
+
+Gregtania6Skyblock.Q414.name=Large Crusher
+Gregtania6Skyblock.Q414.desc=It can process x64 in the same time without increasing energy.%nInput RU from side holes, and input items from Crusher Wheels, then output items from the bottom of Large Crusher Controller.%n%nL: Large Crusher%nW: Tungstensteel Wall%nS: Crusher Wheels%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW W W W W%nW W W W W%nW W W W W%nW W L W W
+
+Gregtania6Skyblock.Q415.name=Large Sluice
+Gregtania6Skyblock.Q415.desc=It can process x64 in the same time without increasing energy.%nInput RU from side holes, and input items and fluid from the center Sluice Part which is opposite of Crusher Wheels, then output items and fluid from the bottom of Large Shifter Controller.%n%nL: Large Shifter%nW: Titanium Wall%nS: Sluice Wheels%n%nS S S S S S S%nS S S S S S S%nS S S S S S S%n%nW W W W W W W%nW W W W W W W%nW W W W W W W%n%nW W W W W W W%nL W W W W W W%nW W W W W W W
+
+Gregtania6Skyblock.Q424.name=Large Centrifuge
+Gregtania6Skyblock.Q424.desc=It can process x64 in the same time without increasing energy.%nInput RU from bottom center hole, and input items from any blocks, then output items from the bottom of Large Centrifuge Controller.%n%nL: Large Centrifuge%nP: Centrifuge Part%n%nP P P%nP P P%nP P P%n%nP P P%nP P P%nP P P%n%nP P P%nP P P%nP L P
+
+Gregtania6Skyblock.Q425.name=Large Shredder
+Gregtania6Skyblock.Q425.desc=It can process x64 in the same time without increasing energy.%nInput RU from side holes, and input items from Shredder Wheels, then output items from the bottom of Large Shredder Controller.%n%nL: Large Shredder%nW: Tungstensteel Wall%nS: Shredder Wheels%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW S S S W%nW S S S W%nW S S S W%nW W W W W%n%nW W W W W%nW W W W W%nW W W W W%nW W W W W%nW W L W W
+
+Gregtania6Skyblock.Q426.name=Implosion Compressor
+Gregtania6Skyblock.Q426.desc=It can compress materials with TNT and make big one.%nInput items from any blocks, then output items from the bottom of Implosion Compressor Controller.%n%nL: Implosion Compressor%nP: Dense Tungstensteel Wall%nA: Air%n%nP P P%nP P P%nP P P%n%nP P P%nP A P%nP P P%n%nP P P%nP P P%nP L P
+
+Gregtania6Skyblock.Q427.name=Large Electrolyzer
+Gregtania6Skyblock.Q427.desc=It can process x64 in the same time without increasing energy.%nInput EU and items from bottom any blocks, then output items from the bottom of Large Electrolyzer Controller.%n%nL: Large Electrolyzer%nE: Electrolyzer Part%n%nE E E%nE E E%nE E E%n%nE E E%nE E E%nE L E
+
+Gregtania6Skyblock.Q428.name=Large Coagulator Array
+Gregtania6Skyblock.Q428.desc=It can process x64 in the same time.%nInput items from any blocks, then output items from the bottom of Large Coagulator Array Controller.%n%nL: Large Coagulator Array%nS: Stainless Steel Wall%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S S S S%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S L S S
+
+Gregtania6Skyblock.Q429.name=Large Bathing Vat
+Gregtania6Skyblock.Q429.desc=It can process x64 in the same time.%nInput items from any blocks, then output items from the bottom of Large Bathing Vat Controller.%n%nL: Large Bathing Vat%nS: Stainless Steel Wall%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S S S S%n%nS S S S S%nS S S S S%nS S S S S%nS S S S S%nS S L S S
+
+Gregtania6Skyblock.Q430.name=Large Batch Mixer
+Gregtania6Skyblock.Q430.desc=It can process x256 in the same time.%nInput RU from top or bottom holes, and input items from top blocks, then output items from the bottom of Large Batch Mixer Controller.%n%nL: Large Batch Mixer%nS: Stainless Steel Wall%n%nS S S%nS S S%nS S S%n%nS S S%nS S S%nS L S
+
+Gregtania6Skyblock.Q431.name=Large Electric Oven
+Gregtania6Skyblock.Q431.desc=It can process x64 in the same time without increasing energy.%nInput EU and items from any blocks without Large Nichrome Coil, then output items from the bottom of Large Electric Oven Controller.%n%nL: Large Electric Oven%nI: Invar Wall%nN: Large Nichrome Coil%n%nI I I%nI I I%nI I I%n%nN N N%nN N N%nN N N%n%nI I I%nI I I%nI L I
+
+Gregtania6Skyblock.Q432.name=Lightning Rod
+Gregtania6Skyblock.Q432.desc=It can produce much EU by hitting thunder.%nOutput EU from Lightning Rod Electric Output.%nLightning Rod height is more than 100 block, and Y height is more than y=100%nIf there are more two Rightning Rod structure in 256 blocks, efficiency gets down.%n%nO: Loghtning Rod Erectric Output%nN: Large Niobium-Titanium Coils%nT: Tungsten Walls%nL: Lightning Rod (x100)%nA: Air%n%nA A A%nA L A%nA A A%n%nT T T%nT T T%nT T T%n%nN N N%nN N N%nN N N%n%nT T T%nT T T%nT T T%n%nN N N%nN N N%nN N N%n%nT T T%nT O T%nT T T
